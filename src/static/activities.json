@@ -5428,5 +5428,20 @@
 "average_speed": 232.15,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 10665194652,
+"name": "Lunch Walk",
+"distance": 1160.5,
+"moving_time": "0:06:13",
+"type": "Hike",
+"start_date": "2024-01-31 04:50:20+00:00",
+"start_date_local": "2024-01-31 12:50:20",
+"location_country": "United States",
+"summary_polyline": "",
+"average_heartrate": 71.2,
+"average_speed": 3.111,
+"source": "strava",
+"streak": 1
 }
 ]
