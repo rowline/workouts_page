@@ -5593,5 +5593,50 @@
 "average_speed": 2.886,
 "source": "strava",
 "streak": 2
+},
+{
+"run_id": 10745325721,
+"name": "Afternoon Run",
+"distance": 6018.0,
+"moving_time": "0:38:04",
+"type": "Run",
+"start_date": "2024-02-12 07:51:58+00:00",
+"start_date_local": "2024-02-12 15:51:58",
+"location_country": "United States",
+"summary_polyline": "uogsD_yyvSBM?I[}AOa@KMUGWA]Bq@B_A?KC_@SSYYUc@g@YSo@w@i@iAIm@Sy@Kw@K][oCEG_@Ny@HSDWRGXGDIAMKc@s@UMK@e@N[Aa@TOC[QUEODMAq@Dy@KUEiAK]KO?QEuA@]BI?IEAO@E\\mAXm@^g@p@e@VYjBmAn@g@bAe@XOrAa@JIBG?KGIGAS@}@Ny@Fu@G[EcBKWKKQ?UBOPWXMdAU~@WNKFO?GGSUWwAs@KCK@UDa@Vi@v@i@d@YJO@IEEUHYXg@fAuAr@m@n@_@\\MTAlAPjBf@bAPd@P`@B`@JX?RE`Ae@pBw@PMXKL?`AZPTBXQdAQ^u@x@MV?NHxAJh@Bf@In@?VSx@@HPN@JKl@D`@AXGZUl@Ib@Ch@Dz@CNg@Hs@Te@DOPQ\\IBGCc@a@YS]EG?[HSEa@RWMMOMCK@WHm@?aBK{B_@eCDCI?{@T}@FIRG`@g@f@Yb@_@t@e@`BwA`@Sv@YRKlA_@DK@GCKIC_@B[FaAFY?_AI~B?[D_@?sAC{AMUIIGEO@QJYJMPKrBe@h@WFQ?KISGGy@e@e@SSCK@_@LWVs@z@[\\UJG@OCGKA[Pc@T_@rA}A|@q@r@WT?^FjATx@V~@Lz@Xf@Lj@HPCRI`@[bA[fB_APCRD",
+"average_heartrate": 151.4,
+"average_speed": 2.635,
+"source": "strava",
+"streak": 1
+},
+{
+"run_id": 10746409737,
+"name": "Evening Walk",
+"distance": 3544.2,
+"moving_time": "0:31:37",
+"type": "Hike",
+"start_date": "2024-02-12 11:30:31+00:00",
+"start_date_local": "2024-02-12 19:30:31",
+"location_country": "United States",
+"summary_polyline": "ekgsDmt{vSH_@Do@J[Jy@Pi@^y@@QFUJMTGLa@Zc@FQB]JYPQFKHu@RSNc@^m@FUASHMXGBEXaALORq@DYLg@Zk@\\k@Fs@PKNQLg@Xc@Pc@BWLYHo@JMNa@RQZi@DMHu@NQTg@TWF{@FKLADCL@DEf@s@HYB[`@q@Bc@FO@UJMFALSRg@NSJg@HODQ",
+"average_heartrate": 88.5,
+"average_speed": 1.868,
+"source": "strava",
+"streak": 1
+},
+{
+"run_id": 10746890298,
+"name": "Night Walk",
+"distance": 3662.1,
+"moving_time": "0:34:15",
+"type": "Hike",
+"start_date": "2024-02-12 13:28:57+00:00",
+"start_date_local": "2024-02-12 21:28:57",
+"location_country": "United States",
+"summary_polyline": "aufsDq`}vSKXCPg@v@]fAk@x@?Pa@l@Qp@SZi@zAe@t@i@vAEb@S^]^E\\O^Kb@Sh@_@l@_@|@EDK@CBCL@ZMZa@t@ULGRAXEPMVIJSj@OXIVINKjASj@@ZR^HXHd@@XLZLt@?LIX?J`@fALr@NdAAVBTJTH~@VnA@j@E`@GR]^h@^P`@D^\\dBHj@TpAFf@@XLjAJXN`ADz@Jd@?d@Nz@B\\f@dC?TNb@?z@Xx@@t@Jt@",
+"average_heartrate": 93.6,
+"average_speed": 1.782,
+"source": "strava",
+"streak": 1
 }
 ]
