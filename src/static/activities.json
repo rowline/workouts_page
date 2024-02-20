@@ -5848,5 +5848,50 @@
 "average_speed": 1.061,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 10792481876,
+"name": "Evening Walk",
+"distance": 1157.8,
+"moving_time": "0:00:26",
+"type": "Hike",
+"start_date": "2024-02-19 10:54:40+00:00",
+"start_date_local": "2024-02-19 18:54:40",
+"location_country": "United States",
+"summary_polyline": "",
+"average_heartrate": 80.5,
+"average_speed": 44.531,
+"source": "strava",
+"streak": 2
+},
+{
+"run_id": 10792909186,
+"name": "Evening Run",
+"distance": 12266.0,
+"moving_time": "1:08:42",
+"type": "Run",
+"start_date": "2024-02-19 11:10:35+00:00",
+"start_date_local": "2024-02-19 19:10:35",
+"location_country": "United States",
+"summary_polyline": "uuthCci~vT\\i@NGR?LFXtBLRF|AJv@@v@P~@Bb@FVJDJTBdAN`AAZP^IJFp@p@rCCt@Jb@C`@Hf@@hBXb@Mj@Fv@W`@?fBE`@Bn@Ef@Jr@Cx@Fb@KJAPBbBF|@EhAPlB?^ITHd@CzA@f@E`@H~BCl@NbCEFJBp@]XCDFKZCZBd@LDMWBHAd@DJ\\ER[TO|BeApHsEpAm@d@c@hBaA|AiAb@Sz@s@nCyATYr@]fAq@n@i@z@_@`Ay@ZENUTIb@In@]TQgB~@wAbAm@TGNu@f@WDc@TMN[T{@b@STu@X]^s@^a@b@YDk@Vy@x@w@`@_B~@[X[LwDjCy@\\]\\s@ZONaBx@s@XALYFg@lA?JHTIHCr@H`@Aj@Df@Cd@H`AGd@HhAE\\Jn@dA?^Id@?x@Yt@mATm@lAmA`@}@\\UdAsAZKZCf@Fr@Z\\FZVR?RJRARPtBv@|AJPU`DyBzDsBxAcAx@c@LQj@Yb@_@l@_@h@O|@e@~@g@bEsA`AQj@g@HU@Y_@aBIeAQm@?u@O}@Iw@@YO_AEgASkAOyAi@_@]E}@RaBh@uBb@qDbBsC`Bm@d@wC|AUX_Bz@WVu@ZKPk@X{AfAkDtBeAd@sAdA{@`@QVsA`A_AZ[Tw@`@s@T_@RER_@`@Qz@Cl@Bx@FZC\\Bl@Ef@D`EPVBXXGVFVEz@Dj@a@V_@b@e@bAyAZq@Vc@\\Y^o@l@m@f@MpAJ\\VVBVP~@Vh@Fp@b@jAZz@DnAs@JMpCiBbAa@rBqA|@s@t@c@RUZMtBuAbAk@pBy@tAUnCo@NQL_@Bu@QoAQg@Iu@@]a@gBIq@Bg@Mc@?YYyBMmBm@e@WEmHjB[Ta@N}BrAWBMVMHgA`@GPgBfACJRLYTOCEo@QKYu@AQS[GTMH?JFJAF]DIPSPSDCH[RQTM?]NSXOBKPSHMT_@RUVYPg@Le@ZWBo@XuB`Bq@XSTa@RM?s@n@QVWHUGsAt@o@f@m@JYR]CKO?i@MUG}@@[]mABM@e@FU?QMWJM?KGUHYI_@FEBO@c@Ga@LSScAH]IG?o@UiBDUIYDq@EYB_@C]DG?SE[@oCE{@JcACy@?aA",
+"average_heartrate": 142.8,
+"average_speed": 2.976,
+"source": "strava",
+"streak": 2
+},
+{
+"run_id": 10797047406,
+"name": "Morning Swim",
+"distance": 1375.0,
+"moving_time": "0:35:23",
+"type": "Swim",
+"start_date": "2024-02-19 22:36:25+00:00",
+"start_date_local": "2024-02-20 06:36:25",
+"location_country": "United States",
+"summary_polyline": "",
+"average_heartrate": 135.1,
+"average_speed": 0.648,
+"source": "strava",
+"streak": 3
 }
 ]
