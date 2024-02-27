@@ -6013,5 +6013,35 @@
 "average_speed": 8.505,
 "source": "strava",
 "streak": 4
+},
+{
+"run_id": 10840460978,
+"name": "Evening Run",
+"distance": 10172.0,
+"moving_time": "0:53:33",
+"type": "Run",
+"start_date": "2024-02-26 12:41:29+00:00",
+"start_date_local": "2024-02-26 20:41:29",
+"location_country": "United States",
+"summary_polyline": "o}thCgj~vTf@i@PYRIPQHUROH_@RUJCLOJLBP\\Vn@VFHf@XBJRDBNPNRXJP`@?BN?d@CX?p@DVAf@Dn@DRFN@\\FTJz@L`@Bz@VbBB\\Hj@?VJzAHLAZTlB?ZFJ?VF`@@z@Jx@AXBr@AVDRKhBBTEbCFh@GZDf@ExAET@H?j@LjADFGVHd@PHGh@FXOTAHDTFHIXD`@Cv@@x@AXBPER@XNb@B\\CRBVC`BBp@?d@Cf@EV@HCFBI@JELHTRPDTCLIJHpEA`AFz@Gx@B^ALHTJH@Jx@CjADZGVULa@NKNYJKT]f@e@R_@NSDCXi@VUhAoAl@Qx@A`@NJ?PNH?b@Lb@Tj@HVJ`Bx@nANLO\\Wp@a@F?NOz@e@VWf@WXU\\MZYJC~AcA^OLQh@YbCeB^M\\UzCyAn@Of@Sp@Uv@Op@SFGR]@KCWK_@_@mDI]Gq@WqAAo@K_AMw@MmAGSG_AGI[QK?QKKAi@LK?GFgAVsATk@TU@MDq@^uAj@oA|@{@d@YJEHIFg@V_@ZG@]Ra@Zc@R_@ZeAj@YV}Az@MLK@s@j@WJYV_B|@}@n@oAt@[VWJw@f@YTG@k@^GFSJm@f@KBWRkAf@i@Xs@TKN_@`@GHOfAAf@BPAn@DlACTD~@IdBB`AN^JDb@KtAAl@S\\a@HQt@{@LWNQHUr@_ADKTYRKZg@b@[`@On@InB^h@RPHTFN?d@NlBbAH?`@JL?~A{@NO`@O^]ZQHIvBoAd@_@jAo@rEyCZKj@_@~@g@ZOfBm@PK\\At@[\\Kp@INKP]B[GkAGO?KQqAKgACc@S}@KUCc@@IIe@Cg@]sBQeBc@a@]KM@i@NK?uBf@SHa@F_AZgB|@]Lq@^GHo@`@eAf@OPg@V]LQLi@PK?OHUBKTQL{@h@KJKTUXQJi@VOPUHGHu@h@_CpA}@n@eBbA_@VUJ[X]LOPy@d@WV}@b@e@^SDgAn@]NUDq@XOLIRGDKIEMB]GWDICQFI@I?QCYDWCUDYAg@@KEIDOEYDK?YEUIIBs@J[Ao@@g@CKGKAk@Bu@Gc@JUAMBUGU@MGGCIB[AKEsAIaA@s@C[B[E[D[EGEO?QH[COByBCm@DY@w@I}A?[",
+"average_heartrate": 139.2,
+"average_speed": 3.166,
+"source": "strava",
+"streak": 4
+},
+{
+"run_id": 10844001793,
+"name": "Morning Swim",
+"distance": 1550.0,
+"moving_time": "0:37:59",
+"type": "Swim",
+"start_date": "2024-02-26 22:42:24+00:00",
+"start_date_local": "2024-02-27 06:42:24",
+"location_country": "United States",
+"summary_polyline": "",
+"average_heartrate": 145.4,
+"average_speed": 0.68,
+"source": "strava",
+"streak": 5
 }
 ]
