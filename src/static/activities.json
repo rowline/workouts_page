@@ -6118,5 +6118,35 @@
 "average_speed": 10.622,
 "source": "strava",
 "streak": 8
+},
+{
+"run_id": 10871030430,
+"name": "Morning Walk",
+"distance": 2441.8,
+"moving_time": "0:17:53",
+"type": "Hike",
+"start_date": "2024-03-02 01:38:39+00:00",
+"start_date_local": "2024-03-02 09:38:39",
+"location_country": "United States",
+"summary_polyline": "gcohCeedwTbAMbBa@`@Ir@Fv@Mh@Gh@MpAO^Qr@CJBBCJt@CRA\\I|@VzA@f@",
+"average_heartrate": 86.5,
+"average_speed": 2.276,
+"source": "strava",
+"streak": 9
+},
+{
+"run_id": 10874867705,
+"name": "Evening Run",
+"distance": 31313.0,
+"moving_time": "2:24:16",
+"type": "Run",
+"start_date": "2024-03-02 12:13:01+00:00",
+"start_date_local": "2024-03-02 20:13:01",
+"location_country": "United States",
+"summary_polyline": "a|thCyj~vTzB}Cl@QpAh@hBrAb@x@d@JDP?hDLhAPh@B|AfAzG|@hI@nJG~AHfEGbDB~AV^E|@Od@P|@Eh@FnAKtAP~@?zGHj@ALKQAV`@l@M~ABzBHp@Er@HXIn@LbBZ^xBO`@ShEqGhBwAfAGf@HrGnBl@^l@B`EqCtLyHxE_CdDiApAQVSLw@kA{JGcBs@mFYSc@O{@FgEdAoErBqBpA{An@a@^sBv@{D|BoIpFsI~FaEbBk@l@S~@NtMXf@tBOn@WzFkHtAaAlACvCbAb@Z~DbAdSuM~E}BhF{AZ]By@i@oCYcEy@{FOmBaA_@{G|AiEnBc@`@yAn@sAlAoClA_DtBOV_A^sJbGiFvDqDxAq@x@Ox@JdMVj@~BMj@Y~E{G~@aAh@QlA?`IlCx@FjXqP`C_AxDy@Pk@QwBcAsG{@sIiAm@sGhBmEpBuGfEiB|@oFvDwCnB}C|A{DdCg@f@yBnA{Af@q@nAKj@X|GQhCRr@|BKp@YJY|@o@|@eBbAgAvAwAz@[vADlG|B|ATbJmFfFyDfEeCvE_BhBe@Vk@K[QeC{@sEAkAy@{GmAg@_G|AkEnBsCrBgD`B]^a@JcFvCwK~G}DzCyDfBg@f@WfALjECzF\\f@nCYdFmHjAgA\\Ij@E~ATvDbAjCbANCfFcDjOmJzFsBxAW\\[Hy@g@_Fk@eCMyBq@eF{@e@}FpA_KbFwB|AwDrBkDnC{DrBwDxBqCtBwFpCe@j@UfANrHMlBVv@bCIh@ObA_Bz@_An@oAhBcB|@a@xBNrGvBt@DvRiMnEuBjDiA`BYXc@AeAw@_HQg@?w@{@cH_@]e@KsFrAmF|BaBjA[DOXa@L_BpA{EjCoDlCwFdDwGpEmDdBu@`AWnAHtBAlFRrAjCK^SbG}Hj@e@j@Qv@Az@RvEdBrBb@lLmHhCqB`FoCdBu@vEgA\\{@c@aFw@iFM}B[_Cu@m@{FnAeGzBoP|Ka@b@gH~DgFpDsFdCo@dASzAB`IHnA`@ZrAIn@Qj@o@n@mAtAaBhAw@|@mA`@OpCXvFxBv@HdDcClQ_LlDsAzD}@Za@@e@{AuLm@_Ga@c@]GmBr@uDx@qHlDyAtAkBp@[`@qF`DY^yDtBuI|FaD`BgA\\MZa@ZYv@KpBRjDAvCZp@rBGp@YrFqHh@c@x@YzEp@zE|AbPwJ",
+"average_heartrate": 157.9,
+"average_speed": 3.617,
+"source": "strava",
+"streak": 9
 }
 ]
