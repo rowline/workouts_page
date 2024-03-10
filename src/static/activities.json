@@ -6328,5 +6328,35 @@
 "average_speed": 3.532,
 "source": "strava",
 "streak": 2
+},
+{
+"run_id": 10923476664,
+"name": "Evening Walk",
+"distance": 2596.1,
+"moving_time": "0:18:03",
+"type": "Hike",
+"start_date": "2024-03-09 11:38:37+00:00",
+"start_date_local": "2024-03-09 19:38:37",
+"location_country": "United States",
+"summary_polyline": "wxalC_pkrTn@uA\\m@l@cBCPSj@Yp@]h@cApCc@|@MLQB]ESMAG?KPe@e@_ABAAA[v@u@hA_@`Ak@jASl@I^",
+"average_heartrate": 78.0,
+"average_speed": 2.397,
+"source": "strava",
+"streak": 2
+},
+{
+"run_id": 10926536093,
+"name": "Morning Swim",
+"distance": 2475.0,
+"moving_time": "1:37:38",
+"type": "Swim",
+"start_date": "2024-03-09 22:34:33+00:00",
+"start_date_local": "2024-03-10 06:34:33",
+"location_country": "United States",
+"summary_polyline": "",
+"average_heartrate": 133.3,
+"average_speed": 0.422,
+"source": "strava",
+"streak": 3
 }
 ]
