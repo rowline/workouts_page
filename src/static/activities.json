@@ -6808,5 +6808,20 @@
 "average_speed": 3.436,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 11101780186,
+"name": "Morning Run",
+"distance": 10006.7,
+"moving_time": "0:51:53",
+"type": "Hike",
+"start_date": "2024-04-03 22:09:27+00:00",
+"start_date_local": "2024-04-04 06:09:27",
+"location_country": "United States",
+"summary_polyline": "azmhCwoqvTCqID_AJi@Rk@Ta@j@{@Xi@Li@Bu@Gq@Me@Uc@u@_AUc@Qe@Kq@CeA@uDEeQBsAJeATw@^o@dAqAb@o@^{@Xy@R}@Ly@FcA@mAKcBYyAa@mA}AuDgAsC[oAOoAG}AOsIa@sHCkABk@Hk@l@mBNy@@}@My@@MDDLTWm@kCuB]a@Yk@Wy@}AyGiA_EM{@@m@Ly@|@eDtBsIHu@Ag@Ia@Us@qBsEuEiLi@gAOSUOUIWAYD_@JgLbFwAj@b@SpBgAzD_BdCiAr@Uh@Kd@B\\LTTXf@Xp@~@nCpF~MVt@Jd@Dt@K|@]|AkC~JO`AAt@N|@pAhEvAlGRr@N\\^f@pAhA\\^Vf@Lh@Fv@Cr@Mr@[hAQv@Eb@An@B|@d@fINxIFfANlA\\lAbC`Gv@zBZxAJhABlAEvAOhAQ~@]bAa@v@iBjC[n@W`AGb@Ep@Ax@FxF?vCDpE?nCB|@Hn@Pj@Zj@j@x@Tf@Jb@Fp@En@Ib@Ul@m@dAYn@Sn@K|@AdA@hMHtCJpAPxA",
+"average_heartrate": 139.4,
+"average_speed": 3.214,
+"source": "strava",
+"streak": 1
 }
 ]
