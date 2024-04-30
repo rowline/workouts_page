@@ -7108,5 +7108,50 @@
 "average_speed": 0.779,
 "source": "strava",
 "streak": 3
+},
+{
+"run_id": 11287837745,
+"name": "Morning Ride",
+"distance": 1204.2,
+"moving_time": "0:07:43",
+"type": "Ride",
+"start_date": "2024-04-28 22:43:54+00:00",
+"start_date_local": "2024-04-29 06:43:54",
+"location_country": "United States",
+"summary_polyline": "izshCmk`wTbD?~@Cv@Bx@EtA?|CD",
+"average_heartrate": 86.2,
+"average_speed": 2.601,
+"source": "strava",
+"streak": 4
+},
+{
+"run_id": 11287837744,
+"name": "Morning Swim",
+"distance": 3100.0,
+"moving_time": "1:03:23",
+"type": "Swim",
+"start_date": "2024-04-28 23:00:46+00:00",
+"start_date_local": "2024-04-29 07:00:46",
+"location_country": "United States",
+"summary_polyline": "",
+"average_heartrate": 134.7,
+"average_speed": 0.815,
+"source": "strava",
+"streak": 4
+},
+{
+"run_id": 11287837730,
+"name": "Morning Ride",
+"distance": 2009.2,
+"moving_time": "0:10:13",
+"type": "Ride",
+"start_date": "2024-04-29 00:43:53+00:00",
+"start_date_local": "2024-04-29 08:43:53",
+"location_country": "United States",
+"summary_polyline": "omshCqh_wTWDm@RwBZk@DaEf@aBJyAj@SPg@x@_BnB{A|BoAbB}@zAm@v@}@nAc@f@YNQ@KAm@a@YIm@k@KCORa@ZeD~D",
+"average_heartrate": 107.9,
+"average_speed": 3.278,
+"source": "strava",
+"streak": 4
 }
 ]
