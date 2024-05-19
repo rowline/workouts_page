@@ -7258,5 +7258,20 @@
 "average_speed": 0.74,
 "source": "strava",
 "streak": 7
+},
+{
+"run_id": 11438953980,
+"name": "Afternoon Hike",
+"distance": 11911.3,
+"moving_time": "3:09:22",
+"type": "Hike",
+"start_date": "2024-05-18 07:08:56+00:00",
+"start_date_local": "2024-05-18 15:08:56",
+"location_country": "United States",
+"summary_polyline": "smuhCkf~vTWeBAk@OkABUk@cGGy@Fa@WSG]@WMOyDZKp@X|@IVJP?d@Pr@?x@L`ABbAXt@RbCCZH\\@p@TdA@nALP@`@LP[n@u@Nw@@QHu@FSAAeAi@}B?y@MU?e@Oe@Aq@KW?aAUuAU@[KsANiAj@qB^Hr@NN?bA\\hBGz@[f@DVS?HRSN?VHXj@TA\\RnAI|AR`APLYTYj@[IUDk@b@_@P?`@Tl@FhA\\ZLh@k@v@?nAa@f@GTo@f@Wh@MHs@Dg@t@ANHACPNxAb@z@GxAOJUa@WFE\\q@jAKh@qAhAOH@LLHC`@eAGkCh@q@As@r@OBu@~@_Ah@QX_@SDXGAB?KBF@JAFO?PMJIj@uAtDMz@e@p@q@d@y@BUP?LyA|@Gx@k@~@Oh@Bj@E`@U`@g@XWb@MFU~@[\\c@pAc@\\g@h@SbA_@z@IbABXIT?^XpCI^Gs@H^@zAOZ?`@FJWt@@PpAv@vAvAh@ZP~@b@^Vn@BlAT|ApArBp@j@^h@PFXj@TNLjCL\\\\`BEHLHGFj@X`@v@fAv@X`@Lr@h@VOt@}@v@s@lAU`AgA~AEXXBOCLA@BEGBH?KEJYJ[dA@XE?FBHCMFCG@NHQGQNF@TZTf@FENWFHJNF\\G@JJALTr@b@BLx@^TXH@r@n@`Bn@RRDMJQj@Sh@o@n@a@`@AdBd@P[\\Kf@i@`AUjACz@n@x@@b@WH_@RWz@O`Ad@j@ElBPf@[D[rBSb@Ub@B\\Zn@LZRb@A|@[j@y@zBFlBk@d@a@l@oAx@Q\\wAGw@DKL^KO@QEBHAA]LKOeADk@O{@TO`@u@AIGIh@SGEDMXEjA}@|Ak@z@_ADWCUL[a@O_@sAn@]JRAAEBAOh@aASi@HUzAe@FIGADGK]VTFGRD?g@PABTCFNHBJI[SE?m@s@oBQaAu@eBE_@}@eC_@o@_@eAFu@|DcCZG^JPOl@GzBFJIE}BBs@H]EsA?mCBiAF_@XLFE_@_@BQOEGaAIOF]Cy@Hk@Ac@Sk@NoBGIDBSq@Nc@A_AIq@B}AI}AEMHKDo@EaADQGoADg@Kc@IgBAoFHWCoCFo@Gk@JwAImBFsAOgA",
+"average_heartrate": 94.4,
+"average_speed": 1.048,
+"source": "strava",
+"streak": 1
 }
 ]
