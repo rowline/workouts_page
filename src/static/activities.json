@@ -7380,6 +7380,21 @@
 "streak": 1
 },
 {
+"run_id": 11567861585,
+"name": "Morning Swim",
+"distance": 2500.0,
+"moving_time": "0:52:01",
+"type": "Swim",
+"start_date": "2024-06-01 22:35:43+00:00",
+"start_date_local": "2024-06-02 06:35:43",
+"location_country": "United States",
+"summary_polyline": "",
+"average_heartrate": 137.1,
+"average_speed": 0.801,
+"source": "strava",
+"streak": 1
+},
+{
 "run_id": 11559541185,
 "name": "Morning Run",
 "distance": 7109.0,
@@ -7392,6 +7407,21 @@
 "average_heartrate": 155.0,
 "average_speed": 3.547,
 "source": "strava",
-"streak": 1
+"streak": 2
+},
+{
+"run_id": 11567861467,
+"name": "Morning Swim",
+"distance": 1100.0,
+"moving_time": "0:46:26",
+"type": "Swim",
+"start_date": "2024-06-03 22:39:29+00:00",
+"start_date_local": "2024-06-04 06:39:29",
+"location_country": "United States",
+"summary_polyline": "",
+"average_heartrate": 115.7,
+"average_speed": 0.395,
+"source": "strava",
+"streak": 3
 }
 ]
