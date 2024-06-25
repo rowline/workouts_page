@@ -7603,5 +7603,20 @@
 "average_speed": 0.825,
 "source": "strava",
 "streak": 2
+},
+{
+"run_id": 11727427850,
+"name": "Evening Run",
+"distance": 14024.0,
+"moving_time": "1:11:52",
+"type": "Run",
+"start_date": "2024-06-24 11:53:17+00:00",
+"start_date_local": "2024-06-24 19:53:17",
+"location_country": "United States",
+"summary_polyline": "ynthC{p~vTVe@KNOh@m@v@IVYh@EDe@GBHJCRPb@^JPZ?BPMr@BjAFl@Lb@Bf@P|@Bv@FPEXL^jAzL^fC?|@EVDrBExGDbAEPH|@AxBHn@@dBEJHdABhAEpAFRAVBpCHl@GvAFVA`BBRIh@@v@H`@DHLBBHK`@CtCFz@Cf@B~@BvCNZ\\@v@Qv@Al@YpCsDnAkB`AcARIt@AXC~@\\^Dr@\\`Cz@lBb@bBiAlKuG~BcBn@Y\\WlB}@`Bo@jDy@TIXWHUB[I}@IY[iDo@aEIsAc@yDq@_@a@@wAZQHmDx@_Ad@[JkDhBkA|@y@^yCrByAx@wBxAWFOTSF]Xi@\\}@d@MN_Ab@cC`B_CrAWVq@Z_@\\{@\\QL}Aj@g@b@U\\EjCBVB|ACf@Jn@Id@@t@BTJREf@HXJBpAQv@?f@UnAsBHCX[LUx@qAbAgANUh@Wf@GHBXC~@P|@d@f@J~@b@pB`@f@RJAFKtBkAHKdB}@hBqA|@g@|AaAx@q@rAy@rAm@hAq@fAc@bDaAfASTQL]?g@KUEg@GOAg@Kc@KsAYkBU_CUyAKeBKc@o@c@UE}Ab@~ArCEG?EHJGDB@MXQACMIBCIU?IIESIKKCc@B[YI]GAHSQC_@FqAf@EFwAh@}@d@WTeBz@e@d@m@\\}@Zm@^M@s@Xw@x@y@h@]Ne@^cB`A[ZgAp@_@\\kAl@mBjAe@b@mAx@_Ah@_@NmAt@G?SLsAh@UT_@Ra@j@IZAXLZTnAATBLIp@FZKXAjAJTE~@HRF?J^FDhAGl@@j@MP_@z@oA\\YlCwD^_@h@Y`AKXFv@\\b@FZTd@DzAd@TNfBb@|DcC`CaBvBmApE}C|E}BxBk@n@YfAQPUPe@IaA]oBEkAK_AIa@MWAi@Sw@?s@Kg@]_DMSs@WcH`Be@ZwCnASP{@h@m@PQTc@\\y@b@MN}@f@WLm@FYJ[f@s@h@]RgBrAK@ULEJeBjAw@`@oCfBiBtAm@RgAx@oAf@IHkAl@i@N[TUXMKGe@Q]JY?WFI?[DUA}@GUAoACUDO?MI_@DOCa@@[IcABe@?g@E[Bu@HYOeAQSLoAOqA@aBEe@F}@DOC]AuABK?o@Ee@BeCIyA",
+"average_heartrate": 157.7,
+"average_speed": 3.252,
+"source": "strava",
+"streak": 1
 }
 ]
