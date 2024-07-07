@@ -7783,5 +7783,20 @@
 "average_speed": 4.425,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 11820514185,
+"name": "Morning Hike",
+"distance": 11518.1,
+"moving_time": "0:09:25",
+"type": "Hike",
+"start_date": "2024-07-06 02:24:34+00:00",
+"start_date_local": "2024-07-06 10:24:34",
+"location_country": "United States",
+"summary_polyline": "m{zgCktzxTHY|@yGk@kIYoGD@tFcEjAwEFIDCbAmHFShBoCDCvB{EFELkGKAd@JgBuFm@Q]wDHIbAoGIYHOa@G_@WlA~@c@a@PDDTCFHE?KI@UIXEa@FJEJOONCABAE[b@uA^QEOp@gHJOBcGHKJ}GDMH{GrAyEIGfBmDVmFUqEEQeBkCCOLmDT{@FETAc@g@Ma@bAmCD@`F{@LY@mHDKVgHBIhHyApA}Cs@UE]r@MhCyBvA}EN}EUuDHCcA{Cv@gDfBsCrCcFAHOBBAhSdJZnBBFK~@G@h@^l@f@NFGXd@a@OPDE@BEBb_@tOrBF@DtBrCB?tDbCFPLNjDpCPD|DNJI~BxCITzBlCBIl@|A?DyB~ERLh@h@GNE[zBgDJEnBaDpFgAlB}DrA@CIKGTFDH@?ISSEXFHCK?FHMBJA?IMFDCtTlGrB|@~D~EzBdE?H~@rEl@bAHF~@pD?F|AfED\\lBnEBLBdBCJ^tDsClCCO",
+"average_heartrate": 89.8,
+"average_speed": 20.386,
+"source": "strava",
+"streak": 2
 }
 ]
