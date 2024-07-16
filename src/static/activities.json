@@ -7918,5 +7918,20 @@
 "average_speed": 0.857,
 "source": "strava",
 "streak": 10
+},
+{
+"run_id": 11897897423,
+"name": "Morning Swim",
+"distance": 1550.0,
+"moving_time": "0:46:46",
+"type": "Swim",
+"start_date": "2024-07-15 22:32:55+00:00",
+"start_date_local": "2024-07-16 06:32:55",
+"location_country": "United States",
+"summary_polyline": "",
+"average_heartrate": 122.1,
+"average_speed": 0.552,
+"source": "strava",
+"streak": 1
 }
 ]
