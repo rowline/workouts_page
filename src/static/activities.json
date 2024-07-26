@@ -8010,6 +8010,21 @@
 "streak": 5
 },
 {
+"run_id": 11981874138,
+"name": "Morning Swim",
+"distance": 2775.0,
+"moving_time": "1:00:50",
+"type": "Swim",
+"start_date": "2024-07-20 22:29:59+00:00",
+"start_date_local": "2024-07-21 06:29:59",
+"location_country": "United States",
+"summary_polyline": "",
+"average_heartrate": 113.8,
+"average_speed": 0.76,
+"source": "strava",
+"streak": 6
+},
+{
 "run_id": 11969106312,
 "name": "Evening Run",
 "distance": 14006.0,
@@ -8023,5 +8038,35 @@
 "average_speed": 3.295,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 11977559953,
+"name": "Evening Run \u6d4b\u8bd5\u7248\u5361\u6b7b\u5403\u4e863km\u8ddd\u79bb",
+"distance": 7465.0,
+"moving_time": "0:44:25",
+"type": "Run",
+"start_date": "2024-07-25 12:31:20+00:00",
+"start_date_local": "2024-07-25 20:31:20",
+"location_country": "United States",
+"summary_polyline": "yithCih}vT?JHREj@DvAEJBNMb@AjB?p@BVCf@?CDb@?DEDFxACVDZIV@ZETDLFdA?bACHLX@X?n@CX?PDX?p@ALBX?`@FNGVB\\E^DHH`@@d@GNALH`@B`@E`AFH?A@HWjAF\\?AFFCR@HHPNJDLOVAXBVKh@DJ?AF\\?LEb@DVBf@DXAf@?AE\\DbAEp@BJJT@PBFD@HKFCLCNBJEb@DDEb@E^YFGZq@HC\\g@DMNEFIPQN]TYP]TKHURYROFQFCVWf@Mr@AnBj@L@TNb@FJFj@T~@VL@VNl@NN@JAFOFAh@]RSZKFIVKHIZUNGj@c@HC\\Wl@YPQLCVMdAu@t@a@`Ay@FCLMVIJMPIJITEHKj@[\\KZY^I`@QPCj@UbASZSH?VKL?d@KHGTe@?QGk@IIGM@OEMFi@CEMm@AOIc@As@Gg@EGAKGgAQe@AW?MOs@KoACu@EYCGIGOC[WQASHaAJm@Po@L_Bd@k@\\uB|@ML_@JGHULUPKDk@ZMBGHc@XKJYLSNGJWHGLSNY@CDI\\GJAHEBU`@i@LCHQ@YRa@DU\\y@b@MPQBEDq@Lw@ZYZUHKRCNk@PMLa@HED?PIFUJa@FKJUH[TUh@IHiARoA~@GHc@RGHODCDOD[@a@Xc@LQZ_@TMj@Bf@BNMfA@LE\\ATBNPp@CNDd@GXH^IRAt@?JTz@FBTCJC@CpAE\\OVEN]HKP_@HELUBAP[VSf@_AL]l@o@FEZ[HCV[RKb@KJ?LE|@NPHHHJ@d@Rd@LRJj@PRJTDdAd@`@DRFH?\\]|AcAHKPEn@e@JCh@YPSTIFIVKPOTIp@i@vAs@XY|@k@PSZU~@_@HILENMd@QPO^SXGd@Uv@OXKF?j@ShAQTMHKJi@ASCIC]GQAg@Qm@EsAGOQ}@AYGG?@AKAMDi@COIQM{AGQGaAOcAAOCIEE]SUGK?UJ?AGBWBYJ_@FUJsATi@TSDoB|@UHaB~@SNa@JQLUJQN]Re@b@a@VWXa@LM?YZYJ]^CRKTULIRIJYDQRK@SASEAC",
+"average_heartrate": 147.4,
+"average_speed": 2.801,
+"source": "strava",
+"streak": 2
+},
+{
+"run_id": 11981873984,
+"name": "Morning Swim",
+"distance": 1875.0,
+"moving_time": "0:38:51",
+"type": "Swim",
+"start_date": "2024-07-25 22:33:16+00:00",
+"start_date_local": "2024-07-26 06:33:16",
+"location_country": "United States",
+"summary_polyline": "",
+"average_heartrate": 132.4,
+"average_speed": 0.804,
+"source": "strava",
+"streak": 3
 }
 ]
