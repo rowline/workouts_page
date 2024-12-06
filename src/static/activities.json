@@ -10766,5 +10766,21 @@
 "elevation_gain": 40.2,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 13052345712,
+"name": "Night Run \ud83c\udf19",
+"distance": 13067.0,
+"moving_time": "1:10:16",
+"type": "Run",
+"start_date": "2024-12-05 13:02:07+00:00",
+"start_date_local": "2024-12-05 21:02:07",
+"location_country": "United States",
+"summary_polyline": "k|thCkk~vTbAuADOLCb@u@F?TLj@h@d@j@`Ax@JEDSD?RN^h@GT}@^KZMJg@~@_@d@GV^HnDdDDTd@lAPt@@Zd@zAPhCFJD|@Px@@hCR~@Bd@?j@OhBE|AHtBCd@FXGXBzAGbAHX?f@Jt@E\\L\\CLB~ANXIVEx@DrAGnALZHn@GjC?`@HPALMHCjAFV?d@HHZHSj@A|@JbFChADh@Gb@Rx@d@OrBGj@YPe@NMTa@b@a@b@{@h@w@n@o@p@cA^SzACXP|@TPNlAT^X~Bv@d@FbAy@nC{A|AgAlBiA~@u@vAy@~@u@`@QJ?dAu@XGTU~Am@fCq@hAQTMVe@?Oc@qDOqB_@gCIYWmCMs@MoAk@]YAUHqFrAQ?gDxAaDlBy@t@sAh@aAx@_B~@STWHq@j@OBkBnAM@QRmBfAc@d@u@V]Za@Po@f@c@ReA~@k@NKPO@[^UJEHk@DEJcBbAWGGDI\\EBM\\Kt@HrAAv@JrA?~AEhBPn@dAIjAESJuABi@AKEC[MUD_@?s@DcAIUBs@Go@Fc@CKBe@GqAHc@PUH[l@e@b@I~@c@h@_@pAk@h@i@~@c@lBoAn@i@t@]XY|EsCl@e@TKHU`@I`@U~CwBp@Yx@s@fAg@z@s@hAg@POXGt@c@jCaAn@QX?lA_@p@K`@Bj@b@NT?z@ZzCY`AQP}@VkBv@_@FaED{@Rs@`@Wn@ONo@Pc@\\OBQLcA`AwBjAc@Lk@l@R~AD~@Hv@Gn@F\\Cn@I[By@I_ABc@QaDL^BjDJpABbAIWCeBUeFNd@?fANjAAfAJl@Bj@EJO_AOeGA_@GANf@JnADnAGdAN^C~@Ma@@y@SmGFT?d@JlAKr@Nj@FxBGGCa@EqDMiCPxBAdAH^LfCMKE_@@_@EaBGOBWKsADg@G]L`B@~@FPGj@?\\L^?bABLKY?wAIeACkCI]I?mBdBc@\\i@ZaCbAmCr@m@^s@hAWr@sA~Am@DMBUXk@DmAKWF}@Aq@DGNI?AZIGCo@CGKx@KALu@?}@I_@@]HIDg@WYAq@KY@YJ_@?q@EG?uBDc@Ck@GIIk@Dg@GYD[CkAHoAM_A?u@KcADi@GaBBoAG{@Hc@@o@EYDYEmABY",
+"average_heartrate": 150.5,
+"average_speed": 3.099,
+"elevation_gain": 48.4,
+"source": "strava",
+"streak": 1
 }
 ]
