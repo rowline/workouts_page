@@ -10798,5 +10798,21 @@
 "elevation_gain": 182.8,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 13090209221,
+"name": "\u6668\u95f4\u8dd1\u6b65 \ud83c\udf25\ufe0f",
+"distance": 10011.6,
+"moving_time": "1:02:38",
+"type": "Run",
+"start_date": "2024-12-10 21:47:56+00:00",
+"start_date_local": "2024-12-11 05:47:56",
+"location_country": "United States",
+"summary_polyline": "a|thCuk~vTf@m@~@}ADSAKKKi@WQQg@oAQ[QU}@u@uAsA{@m@aDiD_A}@OSAOHUr@k@t@_AtAwBl@w@`AaAZo@tBmCP_@DMDe@HOv@i@l@k@xAkA~BoAv@i@FI?YGg@{@gCGm@CuAJwA?QWqAAiAGiBAOGUCo@Kw@A}AIm@@SPUr@ULIOeA?IHMNGnAIx@Sz@GtBIbDAn@CdABbBCjEDfCKb@EPEDEJY@{@I}@EkBMsB@mAWcE?k@Iy@?o@GsAMkAQwC?_B@m@C]KeEDkB?qB@c@HlACZE{@?mBGwA@_CGkAA_A?q@HmDE}@Dz@LlFAnGBdBBtEEjA?jBCY@a@BFC@ACFCB@EDC]EgLEqABkAC}@EwGIiAAi@ByCCgB@qBAoADaE@bAFpBApC@x@C~BNbFA`CDdF@ZRbA@JMbAGz@@`FEpBDpE?C?ESd@JNJ`@VhDHzB@|@NrCDnB?|@\\tG@pAJpCJPDPFn@p@xDZbC`A|Dj@zELj@ZbC^|AJh@L~AN`ABh@ZtANzAXzAFr@Jn@J`Ab@dDDv@ELUHkBNaC`@sD`@uAReDZuAFgEX_@Xi@RGDa@v@_B`CKL[Nk@z@gAfAsA|BsBdC",
+"average_heartrate": 145.1,
+"average_speed": 2.664,
+"elevation_gain": 100.8,
+"source": "strava",
+"streak": 1
 }
 ]
