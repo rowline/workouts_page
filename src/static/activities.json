@@ -10878,5 +10878,21 @@
 "elevation_gain": 125.8,
 "source": "strava",
 "streak": 2
+},
+{
+"run_id": 13127825265,
+"name": "\u508d\u665a\u8dd1\u6b65 \ud83c\udf19",
+"distance": 16560.9,
+"moving_time": "1:27:37",
+"type": "Run",
+"start_date": "2024-12-16 12:13:50+00:00",
+"start_date_local": "2024-12-16 20:13:50",
+"location_country": "United States",
+"summary_polyline": "i|thC{k~vTJMgA`BaBpBoBtCiA`A[Dc@Xg@Dl@]R?t@[rAmBfAkAhGeIXYNEd@FdCnANADE~DkFjEsGtB}CVUf@UrA_@fCSxGw@j@Kl@Sh@B\\A|I_AdCs@d@FxBMfLiAbGy@`AGzGw@dASXCLKb@IDE?WW{BwA}O[gEEkB@e@Hi@~@uDBc@@eCLa@VSzAQnAg@n@MrIInC@ZHb@T~@~@d@ZTJZBt@KnA{@`By@v@QpCAb@EnCGvGFTFHLBx@H\\HPbB`BTZRfALFb@@^CTMBKA{@Dc@pAsCBSA_Ad@aA?i@GoABMFEbB?xBOhAAxAW~DBfAHl@LxBr@\\Fn@b@XDHI@KK_BFo@@u@QmC@]DM^I~@H[Mq@EMEKUEm@C{@@oCGaBDsBGcAAgDDkB@OJS?GOe@@_ADGROVFdA@dCXxDNl@A@]RWDO?IOSAMBuAEq@@]FMd@YZGLBXZ^NhBSHGFg@Zc@`@YlBo@~@_Ah@iA^]ZKd@E^?`@HXRr@r@Zh@TdADF\\JPVZ^HnA@~@D`@?t@DhAMd@OZYRSFoAJg@IyAg@kAk@i@i@eAs@{@cAU@]f@MHa@BGAKQk@kB{@Ls@@QE_@]OGe@J[^DhACdA@^FLHDNBXAPKRa@ZWZGj@Nd@?xAg@\\SZ_@RAXNb@r@`BvAhB`AnBl@f@Gr@STWP]BWAiCMgDGKYSQYKCOMc@wA{@cAUOi@Gu@B_@Lg@n@[v@IJ]Pm@l@_AVcAh@OTSn@KHq@Nk@Da@Gs@g@U@[NQ^HdAGrABRNZ[j@C\\gA?iAG{BGcAMaCKE@EBCT@t@Pf@QTCRBb@@pCCrBBx@DfDEdCFhEEP]NGVGrA?jAInAGRWPW@qDw@kAE_DFoEZiBDcANGJ?PJdBEPYRKLAXFl@AVUl@qAtBCX@l@CJk@\\KBQGOYc@sAeCiCMe@?s@EUKKSEaH@IP[DkA?i@Jo@CuBFu@ZuC~A[J]Dc@Ca@M]Uw@y@WUWKUCs@B}@GgDDyE@e@HuAp@e@J}@FKNGXJnAG|Ag@jC[hAEn@HvBZnCr@lJPvADx@d@lE?XCFa@@yAL}A`@}Fn@m@@cCVcEj@wD\\{Cb@cDNkKhBsD?{@XsEd@sB\\uCX_AVUPoBxCgAlBaAhA}DxF",
+"average_heartrate": 151.8,
+"average_speed": 3.15,
+"elevation_gain": 208.8,
+"source": "strava",
+"streak": 3
 }
 ]
