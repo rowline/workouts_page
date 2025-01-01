@@ -11134,5 +11134,37 @@
 "elevation_gain": 40.0,
 "source": "strava",
 "streak": 2
+},
+{
+"run_id": 13227664948,
+"name": "Morning Run \ud83c\udf1e",
+"distance": 10103.2,
+"moving_time": "0:50:07",
+"type": "Run",
+"start_date": "2024-12-30 22:13:04+00:00",
+"start_date_local": "2024-12-31 06:13:04",
+"location_country": "United States",
+"summary_polyline": "u{thCok~vTvAsBRSRGNDXRrAxARTFP@P?JGPW`@g@j@e@t@k@p@INAJBAZLXBJA^UN@pAnAnA|AXn@Tp@j@fCX|BLpAZfBHpBDfB?lHC|B@~FD|ABNP^@RIr@JfJGvADvAD`@GbBFh@Rl@GbAHfCCdGFZNTPBv@Ix@ETETMLMZk@zB_DjByBVSVMPE`@Cf@D~CfAr@RlBr@^FV?ZOdEqCvGcEhAw@nAw@jCuAr@YzAg@zCw@TMJMDOBSASWeBKgAo@sEq@_HI]UO_@QY?yBd@mBd@kCjAqBbAgBbAaFbD{BlA_BlA}JbG{B~AsCfBcDtAc@h@Ud@DOPYv@q@vDkBbDmBhA{@jG{DfBoAtD{B`Ai@pBuA|CmBxC}AtAm@vAc@lBc@xAWPAPDXRJLHPBL\\`EXjBDr@XzBXpBLbBAREPQXSLcCf@uA`@sBx@oAr@k@Vm@^}AlAeDnBuA~@uExCe@VW@{@S{Ak@aCo@aBk@WCe@BWHc@\\eA~A}@fAcA`Bq@x@WT[NWBeB?WEGEEIE_@BcCCoDC{@BsBSk@K}@TmABq@KqDMu@@QFIBACBCeAC_E@_A]eFFaL",
+"average_heartrate": 158.6,
+"average_speed": 3.36,
+"elevation_gain": 39.3,
+"source": "strava",
+"streak": 3
+},
+{
+"run_id": 13233895489,
+"name": "Evening Ride",
+"distance": 2107.4,
+"moving_time": "0:11:43",
+"type": "Ride",
+"start_date": "2024-12-31 12:02:17+00:00",
+"start_date_local": "2024-12-31 20:02:17",
+"location_country": "United States",
+"summary_polyline": "gythCep~vTBK?I_AaAYs@e@m@EOBMp@aAXWpFaGn@y@fAgAnB{Bt@iATg@COi@k@c@m@OYYu@k@gBIc@Gm@?o@Eo@AkAA_@Ic@@IRQt@[\\q@hAcAhCiBt@c@n@Wh@OlAGJ@@BF]Dq@?sAG_BHG^Gj@E",
+"average_heartrate": 109.9,
+"average_speed": 2.998,
+"elevation_gain": 6.9,
+"source": "strava",
+"streak": 3
 }
 ]
