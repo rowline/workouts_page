@@ -11182,5 +11182,21 @@
 "elevation_gain": 0.0,
 "source": "strava",
 "streak": 4
+},
+{
+"run_id": 13249028543,
+"name": "Evening Run",
+"distance": 10044.0,
+"moving_time": "0:45:49",
+"type": "Run",
+"start_date": "2025-01-02 12:09:46+00:00",
+"start_date_local": "2025-01-02 20:09:46",
+"location_country": "United States",
+"summary_polyline": "ojthC{h}vTHpADrB?~GG`BHhG?t@Dx@@jADf@H~CLfBBz@ApCAJIRCt@BZC\\Ll@DXB~FHdEHZRNPFZ?dAM`@STW^o@d@i@~@yAr@}@pAwATM`@M`@Cr@Hl@PdBn@fAXvAh@n@JXEt@m@tCqBjC_BfCuAz@w@pA_AvAk@j@Yz@i@vDiAfAWNGNMJOFQ@_@[{AW{CYcB]yBS_DIg@IUOQ_@QQCQ?yAXwBh@cAX_ElBwA|@o@b@qCxBuBvA{JbGkBbAqGnEkAn@mA`@[Ls@l@Sd@FSNWb@c@tC}AvGmEjBkAdAe@hAo@jDoCr@a@~@q@`CmAjAu@lBcAj@_@hEwB~@_@x@WlDs@f@CVD^XHJFRd@hF`ArELrBRzBCd@IXQRUJwAVuAZkBp@yEfCiA`Aa@XoBdAoGtD}BlAS@c@ImDqAcCs@a@GUAW@UDSJML_A|AeAvA[j@e@r@g@l@[Zi@Te@F}@?m@IOQIa@?sFKeC@yAO_AIqA@m@A{@Fw@?}@GeCCyE@c@Hu@QoBG}C?_BEqALkE?sAIgBEuA",
+"average_heartrate": 156.4,
+"average_speed": 3.654,
+"elevation_gain": 40.7,
+"source": "strava",
+"streak": 5
 }
 ]
