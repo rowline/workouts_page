@@ -11438,5 +11438,53 @@
 "elevation_gain": 43.0,
 "source": "strava",
 "streak": 10
+},
+{
+"run_id": 13295605409,
+"name": "Morning Run \u2601\ufe0f",
+"distance": 10308.6,
+"moving_time": "0:49:33",
+"type": "Run",
+"start_date": "2025-01-07 21:56:17+00:00",
+"start_date_local": "2025-01-08 05:56:17",
+"location_country": "United States",
+"summary_polyline": "e|thCik~vTvAuBb@g@JIL@XFp@d@`@DRRVPHJ@?`A}Ar@y@bBeCb@g@Zi@Z_@Vg@d@k@Te@|AyBdAmAr@STK~Ec@xEm@dAGl@Kt@SzBSfBU\\AzBW`@KpASb@@v@KzBIVGtAIjAOzAQ`ASdBMj@KjBSb@Md@Gl@EVGnAOr@I|@Gv@IRIR@j@ETMN@LDDFDLp@zGZ|Df@bEXvDJn@HZL|BLn@dAdLLz@NTTLX?j@Gz@CrAQb@Ip@Gv@Kz@GLBHFPt@Tl@J~@FDJ?ZIx@OrAOZG~@I\\KnBQtHgApEg@t@M`@MpCYTGVANOVk@PkBF]AUFQJw@PoDBkAAa@Dw@?iBD_@JEjBDRBDDAt@Gd@AjEXKNc@B_AG_@BIZWZKj@EfAFxA@NEJKJODQ@YGWU[OGa@I{C@SFURIRCRDVHRNPJFVBjDBRINOHUBMAWKWQQSKWCy@@{@Ci@BSFQJIPETBVHTNPXLvDBVKLOHS@UCUIUQOSKc@C}CDQHONIZANFVLRPLLFV@^CzBFLARKLOH]?WGUMSSKSEiDAM@MDOLIREZFVHRPNTFtDDLAPMJQF[?WGUIKQKUGmACkBBSJMNGLATBXJTPNNFzDBRITQDMBWCYKWUOUKwD@QHQPGJCVBXJVJHTJ^Bx@A~ABJARILOHU@WEYKSSMUIuCAc@@QHQLKTANBXDNLRRLLBn@CjCDLCJGLQDMB]I]MS[OUCeD?SFOLKPETBVHVNPTJL@bBA`ABLARILQJc@AWCMIM[QSGiDAM@KFQLGJEV?PJ`@RRLFZDp@CvBBLEPONY@MAYGUKKe@Us@C}B?QD]ZELAT@VFPLPRHnDHXALGPMJY@WCSGOMOWM[CqCAO@OFSPKXCN?RFPPVPJP@hAClB@NELKJMDQB[K]UU]SKAa@DaCA[HWZCT?RFXJPNLTFvBDv@IREPKN]Fe@CUMQq@Ss@Ai@BkAEUBMHU^EJ?ZDVFNPPTL",
+"average_heartrate": 161.2,
+"average_speed": 3.467,
+"elevation_gain": 310.9,
+"source": "strava",
+"streak": 11
+},
+{
+"run_id": 13301763988,
+"name": "Night Ride",
+"distance": 1994.0,
+"moving_time": "0:08:22",
+"type": "Ride",
+"start_date": "2025-01-08 13:10:31+00:00",
+"start_date_local": "2025-01-08 21:10:31",
+"location_country": "United States",
+"summary_polyline": "i_uhCql~vTiFgFkA_AOIOAOBKJGN?LPvBJtCTnCJz@FhAP~AFfAN?NKbA}ArA{AbBwB^k@DM?QCOMUwCwCgD}C_@WOAKDIHEL?XP`CHhCLlA",
+"average_heartrate": 99.4,
+"average_speed": 3.972,
+"elevation_gain": 88.4,
+"source": "strava",
+"streak": 11
+},
+{
+"run_id": 13303672204,
+"name": "Morning Ride \ud83c\udf1e",
+"distance": 23857.6,
+"moving_time": "1:27:21",
+"type": "Ride",
+"start_date": "2025-01-08 21:44:14+00:00",
+"start_date_local": "2025-01-09 05:44:14",
+"location_country": "United States",
+"summary_polyline": "ukuhCip}vTgDv@gDRgAwEeCuN?}E[iDoA{AqAcEGmAXoBiAU?SgDMu@PSm@gBPOcAaDmBk@yB?cB}AuC_CsJgBgDcAcFmDuKUaBOsH_CmHW_Cj@sMJaMOuKh@mCQmCg@c@cCGwCF}Bd@eE]}@b@aBYsFkCbFn@e@}@@m@k@k@b@}BDw@SyEKe@YIZgFyAg@UoAqBmCZgLMy@iCy@kD]LsBx@uBhCaLIoHlAoL\\k@bBOTeA_@d@uCBg@`Am@W[{@m@AsAl@s@dAcB^yEqAm@i@]qAT{Al@qAUuC`AkDOMo@`@sAYQ^ZrAa@`CFv@a@rC@|As@`Ah@t@BjCdAdBEb@W@aA_CT~AMrAG_Am@{@mABs@j@cAzBaAdAB`Aw@tB]fDeAPg@`AeAPWGUu@[?[fAh@n@W`CgAL_@z@u@PIp@_AtAg@H_Ck@O[B{AwDt@kCKSnAa@r@kAT_B_@q@nAkAb@cAe@QqCQUiDNsCdAaASoBuAG_CY{@DiAgCaDsA?w@]Sg@N_A_Ae@Qg@Gw@b@eAfCSJqCsBcBc@}B_B\\oAF_BsBK_Cs@e@cAwBb@_AYmAAwAmCb@oDdE{@aA]AmAjA_@`AiAVe@j@aBq@aAJSuBFpBbA@tAv@h@k@pAYjBoC`@@p@fAxC}C\\{@v@Aj@c@l@LRxCY|@z@vBr@p@FrA`A~BdAZ|@_@bAAp@hCdBdADlCwBJWt@BvBv@p@HfBzBZbC|Cj@bGnAnAfAb@vCy@xDS^xCfAh@bAWx@sAdAb@lAMp@{@LcAxDHnCaALtB`Db@lAgAPm@tAmAn@@X[`@cBq@gALuAV?Tt@lADvBgA^kDv@aCG}@dAaAjBwDtAEbA~BJoAUsBnArC\\A@i@eA}AAmCe@a@f@yAb@oDIcBh@oCk@mABg@vADlAQaArCNtCo@bERrAhA|@zBt@|@AnAY|CmBd@D~@jAz@cAbCDh@]Mt@_BL]jAiA~IBtJsAzDi@vDsArCGjBj@^rAEdEhA]~MnB`DJvAjAHf@d@SlIXpDSjDj@`AEbCjD_@xHz@pEk@dB`@P~AIzB\\nAU`MHhFQ|@K|@OlPnC`KCdF~@lH`BtC|AhE\\tBOJ^\\t@xExDbKjBrH`DjCxLtA`FWdB`@~@nC~De@f@hDrAEb@h@n@|DNzD",
+"average_heartrate": null,
+"average_speed": 4.552,
+"elevation_gain": 478.0,
+"source": "strava",
+"streak": 12
 }
 ]
