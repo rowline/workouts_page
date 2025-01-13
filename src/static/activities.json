@@ -11614,5 +11614,37 @@
 "elevation_gain": 37.2,
 "source": "strava",
 "streak": 14
+},
+{
+"run_id": 13330009168,
+"name": "Morning Swim",
+"distance": 1375.0,
+"moving_time": "0:26:54",
+"type": "Swim",
+"start_date": "2025-01-11 22:33:31+00:00",
+"start_date_local": "2025-01-12 06:33:31",
+"location_country": "United States",
+"summary_polyline": "",
+"average_heartrate": 138.8,
+"average_speed": 0.852,
+"elevation_gain": 0.0,
+"source": "strava",
+"streak": 15
+},
+{
+"run_id": 13337646606,
+"name": "Lunch Ride",
+"distance": 1191.8,
+"moving_time": "0:11:21",
+"type": "Ride",
+"start_date": "2025-01-12 04:09:09+00:00",
+"start_date_local": "2025-01-12 12:09:09",
+"location_country": "United States",
+"summary_polyline": "",
+"average_heartrate": 82.0,
+"average_speed": 1.75,
+"elevation_gain": 12.4,
+"source": "strava",
+"streak": 15
 }
 ]
