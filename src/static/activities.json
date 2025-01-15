@@ -11646,5 +11646,53 @@
 "elevation_gain": 12.4,
 "source": "strava",
 "streak": 15
+},
+{
+"run_id": 13348472405,
+"name": "Morning Ride \u2601\ufe0f",
+"distance": 5478.7,
+"moving_time": "0:25:06",
+"type": "Ride",
+"start_date": "2025-01-13 22:12:16+00:00",
+"start_date_local": "2025-01-14 06:12:16",
+"location_country": "United States",
+"summary_polyline": "gothCcq~vThCmDZk@`@m@j@eAn@gA|CwDPMz@Sl@?zDm@tAKfBQxAQv@M^ArAMrC_@z@G~ASPCp@W^IfAElAMbCO~JgAnEq@hAKhI}@p@Mb@UHOAWs@iGcAuKYeEGeB?g@B_@p@gCNq@Bs@@}AB_@L_@HMNGzAQpAg@f@KjLEdAB^Hb@Rx@x@XRd@P`@@\\CZKrC_Bj@W^Gh@CvBBbF?`EGVFJJDRDp@HXPTdBjBLVR|@FDJDT?PC^WDQFe@H[Pa@n@gAN]Fe@CeADO\\UFO@QAyA@QFKNEXEtBG|F_@dACjAB|@J|AXz@XV@TILM?iABQ",
+"average_heartrate": 123.1,
+"average_speed": 3.638,
+"elevation_gain": 12.1,
+"source": "strava",
+"streak": 1
+},
+{
+"run_id": 13348472144,
+"name": "Morning Swim",
+"distance": 2650.0,
+"moving_time": "0:55:58",
+"type": "Swim",
+"start_date": "2025-01-13 22:41:55+00:00",
+"start_date_local": "2025-01-14 06:41:55",
+"location_country": "United States",
+"summary_polyline": "",
+"average_heartrate": 149.9,
+"average_speed": 0.789,
+"elevation_gain": 0.0,
+"source": "strava",
+"streak": 1
+},
+{
+"run_id": 13349415456,
+"name": "Morning Run \u2601\ufe0f",
+"distance": 10015.1,
+"moving_time": "0:48:48",
+"type": "Run",
+"start_date": "2025-01-14 00:40:19+00:00",
+"start_date_local": "2025-01-14 08:40:19",
+"location_country": "United States",
+"summary_polyline": "sjthC_m}vTL~@LlECzB?rIDpA@vAHbBE|@RzFDz@@tA?fFG|BBRP^BPC~@AxBHvBAzCF\\PRNFP@nAKZIb@SJM|@}AbCcDj@}@\\]^Sf@Gh@D`@Lv@\\lBl@dA`@rA\\XDP?NGz@o@~@g@zFuDfBiAvAeA~@m@rCuAtAi@dCw@jAWTMJSFS?e@_@wCKqAUaASgA]aEUoBGOWS[OY?mEdAsAd@}Ar@{EfCu@j@oBlAm@f@uBlAeBrAkDjBgDpBeDvBe@^aB`AaBz@q@VYPe@d@MRMf@A^PaAJYR[^[`@UbAc@~@i@vAq@tAcAvAw@pCkBzA{@nDeCtAw@vAcAdDsBfAk@`BeAhAo@fAe@dCaA|@UfCi@XER@PHVPLPHZZnERfBXhAHf@`@dF@d@E\\QZa@T]LcAPsAZeA^eAf@yC`BsAbAaB~@eFfDmEhCW@q@OmHiCc@Gm@BYNa@`@qBzCe@d@QXUVc@p@c@h@UJm@JwBEGEGQMeAJoCIcFDkACQOYKoAJwEA_AIu@?aCGwF?u@EwBEw@BaG",
+"average_heartrate": 163.3,
+"average_speed": 3.42,
+"elevation_gain": 40.2,
+"source": "strava",
+"streak": 1
 }
 ]
