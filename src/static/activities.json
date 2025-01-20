@@ -11774,5 +11774,53 @@
 "elevation_gain": 0.0,
 "source": "strava",
 "streak": 3
+},
+{
+"run_id": 13393306338,
+"name": "Morning Run \ud83c\udf1e",
+"distance": 26785.0,
+"moving_time": "4:14:35",
+"type": "Run",
+"start_date": "2025-01-18 23:02:38+00:00",
+"start_date_local": "2025-01-19 07:02:38",
+"location_country": "United States",
+"summary_polyline": "o~vhCcrsvT{JfJQ|@BbCs@~Bk@QVcC]cBb@{CGsB`@cEQHQ`BmDfJc@l@[EZkAPeIw@uABmBkBuBxA{B`@iEcAwDMmBTi@~AaA^qB~AqCr@UhBXd@QRgA[mAa@YeHhFoFfHOh@NjFmE`FWtAEvDk@Nc@]b@gIjB}EGoAq@gBCoBtCkDfAsC]SgDpCiABcBp@QTJT_A{@WoCw@aBR}AOiAX{@a@oD_CmF}AiHDmCoA{GIaF\\}Cw@}AK}A@sBw@qAmEyCmCgKiAg@eA}B[gCbAeEE{Cz@_Ei@}@hCuAbA}Dt@]sAmDqFcFeB[aAuCy@u@ScAkBaAYi@C{@l@}ANaBgAyA\\mDu@i@q@A]kBd@}Ge@a@Ko@tAcD|B_Aq@Cn@CiA?]YHJgBb@uDxB@nAe@N\\WE_AR]vDsBdBQ_Ac@I_@v@kAFgA_BwFdB}ABWw@kBIiCkBUmA{BUyC^_AQsAyDeDUo@VaDk@iCC{C\\}Cj@}@Ms@\\kAUgCt@_FbBqC?e@{BaDDqCe@yAgAk@wAHiAaBMuBb@wBkCkH`@cA~@u@EqAWeBT}@OWd@]?e@_@gBBuDUw@iAkAk@yDX}Hk@eD?qFTeCEmA|CiC`DaEdB`@h@Of@`Ae@g@PkA~BuClDuChAB|@c@hBRtBl@zEm@d@NR{CQoB`@cEtAwDzAuAh@sEl@iAQWv@Wg@o@yAc@Ei@l@i@~AM~ADnBp@nA[vCyCp@aBO_BlA?DkAvBdAx@UxFtBpAlCHnBmAfDwI`EqAzBWtRqBjQEfEPnBQ|@uB|Bc@`Da@f@aBCoBwAyE`CgA|AcAnEFdCtDrEf@vAElBmAfIp@nFqBlD?dCHjBzAlFt@dG?pFpBhARt@uA~Bk@zBcAz@w@~AqDlA{AfCoBQg@`@h@rEhAtA|@JrB}@xBFTzAwCfGmArHfAtBDlAcD~De@`Hy@jFcCjD}Bb@gBnAMfBm@f@d@hBo@hFZbBzAt@d@bAa@`Bx@zBBz@u@pCBj@|B|AXpAlAjAx@nB|B`AdEdEbA`Cp@n@rAh@`B`Bh@WpAsB`BQm@BlDpAl@v@`@lBf@\\zNjAvBfBHjDjAvD^jHpAlJDzK|B~Df@bEIlBeBhA@x@l@|@hBCp@`A`AT\\z@R`Df@^pAExC{Eh@WhECtCdAtBtB`JtOkEhW",
+"average_heartrate": 146.1,
+"average_speed": 1.754,
+"elevation_gain": 1384.3,
+"source": "strava",
+"streak": 4
+},
+{
+"run_id": 13400111289,
+"name": "Afternoon Ride",
+"distance": 2429.8,
+"moving_time": "0:11:16",
+"type": "Ride",
+"start_date": "2025-01-19 07:37:48+00:00",
+"start_date_local": "2025-01-19 15:37:48",
+"location_country": "United States",
+"summary_polyline": "a}thCeu~vTyAuAsBuBCG?YMWuEwEIKAMBMFKj@e@~@iAlBuCjAsAz@yAr@y@j@{@PUZWdAo@rB_BjCeBjB}@Rg@n@e@dC_Bt@k@bAc@n@QVExBIl@GbD@fGGtDB",
+"average_heartrate": 94.0,
+"average_speed": 3.594,
+"elevation_gain": 8.0,
+"source": "strava",
+"streak": 4
+},
+{
+"run_id": 13400110976,
+"name": "Afternoon Swim",
+"distance": 2000.0,
+"moving_time": "0:37:07",
+"type": "Swim",
+"start_date": "2025-01-19 07:56:04+00:00",
+"start_date_local": "2025-01-19 15:56:04",
+"location_country": "United States",
+"summary_polyline": "",
+"average_heartrate": 133.4,
+"average_speed": 0.898,
+"elevation_gain": 0.0,
+"source": "strava",
+"streak": 4
 }
 ]
