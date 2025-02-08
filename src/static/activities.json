@@ -12238,5 +12238,37 @@
 "elevation_gain": 39.2,
 "source": "strava",
 "streak": 8
+},
+{
+"run_id": 13560814060,
+"name": "Morning Ride \u2601\ufe0f",
+"distance": 5773.8,
+"moving_time": "0:28:08",
+"type": "Ride",
+"start_date": "2025-02-06 22:07:44+00:00",
+"start_date_local": "2025-02-07 06:07:44",
+"location_country": "United States",
+"summary_polyline": "kxthC}o~vTNCD?VHn@b@pBdBx@d@LBH?DGNi@Tg@rAqBr@{@~A}BFIDANHHJYQE??Eh@}@xDmF\\m@v@}@TOVI~Cc@vD]hGs@jGk@rAGTE^M~@MvUgCr@Ml@_@^K~H}@l@O`@UDI?SUmBk@wFo@kHk@gI@a@Fa@r@mCJm@Dw@?wABa@L_@RQNEpAMVIv@_@p@IrACtA@fFCv@@l@F\\J^Tr@r@VP`@Pd@@`@ETI~CgB\\O^Ir@CjBFr@EjEAlDERBLJFRDr@H\\V\\z@z@\\b@R`@Nz@DFH@l@OVODKJo@HYdAgBL[Hi@BcADMVWFQ@UCgADYFMPEvCIrF_@lBCl@BfAJr@LtA^V?JEHGFS@cARqD",
+"average_heartrate": 96.6,
+"average_speed": 3.42,
+"elevation_gain": 14.7,
+"source": "strava",
+"streak": 9
+},
+{
+"run_id": 13560813928,
+"name": "Morning Swim",
+"distance": 1600.0,
+"moving_time": "0:37:28",
+"type": "Swim",
+"start_date": "2025-02-06 22:38:34+00:00",
+"start_date_local": "2025-02-07 06:38:34",
+"location_country": "United States",
+"summary_polyline": "",
+"average_heartrate": 136.7,
+"average_speed": 0.712,
+"elevation_gain": 0.0,
+"source": "strava",
+"streak": 9
 }
 ]
