@@ -12334,5 +12334,37 @@
 "elevation_gain": 55.7,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 13604655639,
+"name": "Morning Run \u2601\ufe0f",
+"distance": 5168.4,
+"moving_time": "0:27:40",
+"type": "Run",
+"start_date": "2025-02-11 21:48:05+00:00",
+"start_date_local": "2025-02-12 05:48:05",
+"location_country": "United States",
+"summary_polyline": "uzthCyl~vTdAuANMLCZBh@Vd@Lr@f@H?FEx@qAnD_Fr@kAp@u@zC{Ej@m@\\Q|@SfAIn@Mh@C~BY`CQpCa@tCY~B[z@EhAKVGr@UbAUbHg@zBSjAQjFk@xAUtAK|B[rCWTERGL@XC`AUJBBLV|BF`AXtBRhDt@xGN`CVrBN~Bd@vDb@bFFd@HTLPRJP@VAd@IrBOtASt@Ct@M\\?NHFPZbCJJPBl@If@E`AOp@QdAIdAQnBSrEw@tBUx@OxAMzAS`AIl@I~@GVOXs@ViBDu@Fg@NoBHcBJgFBo@BMNG`AEh@@F@DDIxE?~@BPHCDELQFODk@Eq@@IFK",
+"average_heartrate": 139.3,
+"average_speed": 3.113,
+"elevation_gain": 28.6,
+"source": "strava",
+"streak": 2
+},
+{
+"run_id": 13604655651,
+"name": "Morning Run \u2601\ufe0f",
+"distance": 6055.5,
+"moving_time": "0:34:48",
+"type": "Run",
+"start_date": "2025-02-11 22:21:22+00:00",
+"start_date_local": "2025-02-12 06:21:22",
+"location_country": "United States",
+"summary_polyline": "",
+"average_heartrate": 147.5,
+"average_speed": 2.9,
+"elevation_gain": 344.3,
+"source": "strava",
+"streak": 2
 }
 ]
