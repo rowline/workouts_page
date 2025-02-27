@@ -12670,5 +12670,21 @@
 "elevation_gain": 0.0,
 "source": "strava",
 "streak": 10
+},
+{
+"run_id": 13729566438,
+"name": "Lunch Swim",
+"distance": 725.0,
+"moving_time": "0:11:18",
+"type": "Swim",
+"start_date": "2025-02-26 04:45:33+00:00",
+"start_date_local": "2025-02-26 12:45:33",
+"location_country": "United States",
+"summary_polyline": "",
+"average_heartrate": 111.2,
+"average_speed": 1.069,
+"elevation_gain": 0.0,
+"source": "strava",
+"streak": 11
 }
 ]
