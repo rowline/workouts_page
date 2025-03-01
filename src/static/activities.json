@@ -12686,5 +12686,37 @@
 "elevation_gain": 0.0,
 "source": "strava",
 "streak": 11
+},
+{
+"run_id": 13746751557,
+"name": "Morning Run \ud83c\udf2b\ufe0f",
+"distance": 5765.2,
+"moving_time": "0:41:05",
+"type": "Run",
+"start_date": "2025-02-27 22:34:38+00:00",
+"start_date_local": "2025-02-28 06:34:38",
+"location_country": "United States",
+"summary_polyline": "_`gsDi|yvSa@wDIYIKB{@AOKg@g@gDKsAIu@Qu@@]Ia@OoAIYEC[?EECg@Pq@@WAYY{A]uCAYYeBGk@GOQKCIJo@?IQu@WuBGUUWFSR_@LuAViAj@qAXgADGNEDGf@gADUEQVq@V[Pg@h@{@Vw@D]TWf@uA^{@XWFSFEF[Vw@@[FKNIJ[NOd@sAPS`@oAVe@hBwEb@aAn@}@b@{AT_@Vw@F_@LOPY~@yBj@sBTU\\q@v@kBh@cAZ{@d@y@Lg@Zo@H?NRV@`@Ed@RTF|@p@TVfAxARp@FLPRRb@XnAPn@@DCFL@FDb@|@z@h@l@Nt@ZPBTCF[AGIG?ITqAHu@HsANq@HSFa@PgCF{CNw@Ae@Bi@OsCE{ACIU@GJDXFPXjCB`BAXDN@h@IpDUxCSp@SpBIj@IhAId@Mb@UV?FDREPc@r@Kb@s@fAwAhC_AvAQRM\\c@r@Yj@iDpFyAdB_CxBa@d@{DfDOH",
+"average_heartrate": 125.8,
+"average_speed": 2.339,
+"elevation_gain": 45.3,
+"source": "strava",
+"streak": 1
+},
+{
+"run_id": 13746751423,
+"name": "Morning Run \ud83c\udf2b\ufe0f",
+"distance": 1258.8,
+"moving_time": "0:07:59",
+"type": "Run",
+"start_date": "2025-02-27 23:17:04+00:00",
+"start_date_local": "2025-02-28 07:17:04",
+"location_country": "United States",
+"summary_polyline": "qtfsD{hzvSJZZ`@\\x@nA|E",
+"average_heartrate": 127.3,
+"average_speed": 2.628,
+"elevation_gain": 4.5,
+"source": "strava",
+"streak": 1
 }
 ]
