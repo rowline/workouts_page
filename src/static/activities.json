@@ -13152,6 +13152,38 @@
 "streak": 1
 },
 {
+"run_id": 14043740895,
+"name": "\u6668\u95f4\u9a91\u884c \ud83c\udf27\ufe0f",
+"distance": 1200.2,
+"moving_time": "0:05:21",
+"type": "Ride",
+"start_date": "2025-03-29 22:09:25+00:00",
+"start_date_local": "2025-03-30 06:09:25",
+"location_country": "\u666f\u7530\u5317\u516b\u8857, \u5eb7\u6b23\u793e\u533a, \u83b2\u82b1\u8857\u9053, \u798f\u7530\u533a, \u6df1\u5733\u5e02, \u5e7f\u4e1c\u7701, 518000, \u4e2d\u56fd",
+"summary_polyline": "m{thCsl~vTzAiBNMN?RBj@^",
+"average_heartrate": 98.8,
+"average_speed": 3.739,
+"elevation_gain": 25.6,
+"source": "strava",
+"streak": 1
+},
+{
+"run_id": 14043740214,
+"name": "\u6668\u95f4\u6e38\u6cf3",
+"distance": 800.0,
+"moving_time": "0:28:03",
+"type": "Swim",
+"start_date": "2025-03-29 23:08:26+00:00",
+"start_date_local": "2025-03-30 07:08:26",
+"location_country": null,
+"summary_polyline": "",
+"average_heartrate": 98.7,
+"average_speed": 0.475,
+"elevation_gain": 0.0,
+"source": "strava",
+"streak": 1
+},
+{
 "run_id": 14025548157,
 "name": "Morning Ride \u2601\ufe0f",
 "distance": 58313.9,
@@ -13164,6 +13196,22 @@
 "average_heartrate": 163.8,
 "average_speed": 9.295,
 "elevation_gain": 89.0,
+"source": "strava",
+"streak": 1
+},
+{
+"run_id": 14043740112,
+"name": "\u6668\u95f4\u6e38\u6cf3",
+"distance": 1850.0,
+"moving_time": "0:40:08",
+"type": "Swim",
+"start_date": "2025-03-31 22:36:03+00:00",
+"start_date_local": "2025-04-01 06:36:03",
+"location_country": null,
+"summary_polyline": "",
+"average_heartrate": 139.3,
+"average_speed": 0.768,
+"elevation_gain": 0.0,
 "source": "strava",
 "streak": 1
 }
