@@ -13376,6 +13376,22 @@
 "streak": 2
 },
 {
+"run_id": 14116325132,
+"name": "Zwift - 20-40's on Flat Route in Watopia",
+"distance": 20994.6,
+"moving_time": "0:41:52",
+"type": "VirtualRide",
+"start_date": "2025-04-08 12:38:53+00:00",
+"start_date_local": "2025-04-08 05:38:53",
+"location_country": "Puma, Temotu, \u6240\u7f57\u95e8\u7fa4\u5c9b / \u7d22\u7f85\u9580\u7fa4\u5cf6",
+"summary_polyline": "py_fAaj~y^oBwAgA{AiAkDOeAAeAJcAf@y@pGqEt@aAB]Qe@e@g@aBeASm@N[bBWLQkAwKCqBP}A`@uAz@uAz@{@`CkAlCs@zL{ApE}@p@_@d@m@`BiEh@{@`BmAbBe@hBCpBj@hAz@vCbE~@`A|@b@rAJbFe@rB_@r[{IpAGn@b@Hd@?|BOhMSdBgAnEuAvDCbIMvAO\\YPmANwFFaAIc@g@Wm@mCkJaAoAu@_@y@D_Al@e@jAAx@RhAfHzN]^w@V}JvAw@n@Ib@DVXVn@FfKqAh@@PR[Zy@ReL`AKR?VPZjAJbD_@|CFbAPj@\\Pj@D`BJj@hB~BZbAIl@OP{A^e@\\?Xb@jBKd@a@Nc@MqCyCg@_@_@G[LUZwAnE]`@SE_@a@gBeDq@YaKhGm@~@OBo@m@{BsFcAyAg@Ys@KcAAy@H}@XMREVDr@Pt@Zl@fB|@LPARo@v@aBhA]Au@}@}@Qe@kBc@m@c@Wi@?c@Lk@t@M`@Dd@xAx@BVEnAXVtAd@HX}@x@Jv@EL{Ab@eA@y@i@s@qAcBcFmAiB}Ay@wGoBmEqCuAgBkAiDScCH{@Pg@dAmArFuDf@{@@[Qe@mCqBKm@RU~AWLO_@qEi@sDEiCP{AV_Al@kAt@}@jC{A|C{@hM_BjCc@~@YnAgAdBkEd@y@xAgArBm@rBAfBh@jA~@rC~D~@~@z@`@pAL~AKvFy@~[}ItA?ZTLd@AxLKbDU|A{AbGs@xAMf@A`IKnASd@e@Tw@HyFHaAGs@{@yCeKy@mA}@e@y@B_Al@e@dAGp@TtArFnLl@~@DV]Xq@R{JvAu@h@Ob@@XX\\n@H`KqAb@C^NQ\\q@RwLfAKT@Z\\X`AFlD_@xBBtARp@b@\\hD^t@pA|ATz@Eh@IPgCv@CZDX^hA@X[h@o@EaDiDa@Ug@C]VS`@mA~DWZO?q@o@aB_Dq@U}JfGo@~@ODYQW_@oB}EeAcBe@[q@Q_CDoAb@Md@Dh@R`AXf@jBbAJNAPQZcAz@eAn@WMs@y@y@Me@gBy@cAe@I_@De@RUZSh@?d@PThAf@DPKbAFXZVjA\\PZMRo@^ATJn@IHaCd@}@So@{@wB_Gi@gA",
+"average_heartrate": 127.3,
+"average_speed": 8.358,
+"elevation_gain": 122.0,
+"source": "strava",
+"streak": 3
+},
+{
 "run_id": 14112025405,
 "name": "\u6668\u95f4\u6e38\u6cf3",
 "distance": 1475.0,
@@ -13390,5 +13406,37 @@
 "elevation_gain": 0.0,
 "source": "strava",
 "streak": 3
+},
+{
+"run_id": 14121770707,
+"name": "\u6668\u95f4\u8dd1\u6b65 \u2601\ufe0f\ud83c\udf19",
+"distance": 5227.9,
+"moving_time": "0:27:14",
+"type": "Run",
+"start_date": "2025-04-08 21:39:26+00:00",
+"start_date_local": "2025-04-09 05:39:26",
+"location_country": "A.fa \u9020\u578b\u7f8e\u53d1 \u8fde\u9501\u673a\u6784, 7045, \u666f\u7530\u5317\u516b\u8857, \u5eb7\u6b23\u793e\u533a, \u83b2\u82b1\u8857\u9053, \u798f\u7530\u533a, \u6df1\u5733\u5e02, \u5e7f\u4e1c\u7701, 518000, \u4e2d\u56fd",
+"summary_polyline": "w{thCwk~vT|A{BLKNEHAPBlAn@`@`@HBJ@NId@s@f@o@rBsC|@uAlBaCjAsBrAkBNMNInBo@|@K|@OnAEvAO`ASf@GrCS`Fm@z@GpCg@pASZA^@tAIbBS~@G|AS|CYnCc@tAQr@OhBMpFm@t@Mn@Cj@KPBFFf@xDN`BHdBXpDl@vDv@vJTvAt@dJNj@PXNJPBJAnH_An@GR?RFLPF`@NpAFTJJRBfAYl@KjBSbAQnBO|@Q|AUpB_@pCYlBa@jAQ~@MnAId@ILIZq@XoAJy@ZeDFeALmA@u@Gk@Ai@FmADUDELGl@Cv@?FBFFBd@CfFBPB@LAFGHMD[CqAHOTS",
+"average_heartrate": 136.3,
+"average_speed": 3.199,
+"elevation_gain": 42.0,
+"source": "strava",
+"streak": 4
+},
+{
+"run_id": 14121769771,
+"name": "\u6668\u95f4\u8dd1\u6b65 \ud83c\udf25\ufe0f",
+"distance": 426.6,
+"moving_time": "0:02:43",
+"type": "Run",
+"start_date": "2025-04-08 22:54:47+00:00",
+"start_date_local": "2025-04-09 06:54:47",
+"location_country": null,
+"summary_polyline": "",
+"average_heartrate": 127.4,
+"average_speed": 2.617,
+"elevation_gain": 2.2,
+"source": "strava",
+"streak": 4
 }
 ]
