@@ -13454,5 +13454,37 @@
 "elevation_gain": 162.0,
 "source": "strava",
 "streak": 5
+},
+{
+"run_id": 14141968894,
+"name": "\u6668\u95f4\u9a91\u884c \ud83c\udf1e",
+"distance": 5534.1,
+"moving_time": "0:18:27",
+"type": "Ride",
+"start_date": "2025-04-10 22:15:46+00:00",
+"start_date_local": "2025-04-11 06:15:46",
+"location_country": "\u6df1\u5733\u5e02\u798f\u7530\u533a\u5916\u56fd\u8bed\u5b66\u6821\u666f\u7530\u6821\u533a, 1, \u666f\u7530\u5317\u4e03\u8857, \u5eb7\u6b23\u793e\u533a, \u83b2\u82b1\u8857\u9053, \u798f\u7530\u533a, \u6df1\u5733\u5e02, \u5e7f\u4e1c\u7701, 518000, \u4e2d\u56fd",
+"summary_polyline": "cqthC{n~vTlEkG|C}ExByCTUHEHAnBAfAQbEa@`OcBnD[bGq@bD]~Ca@|Da@bBIl@Gt@M\\a@\\O~H}@p@O`@UFK?Q[}Ba@}D_A{Ka@wFBo@Hq@Jc@^iALw@HgDLc@TSPGfAM|Ai@d@It@ChICpA@`@B`@Hd@Xz@x@RN`@L`@BXCb@MvCeB`@Qb@Ix@CbCB~JG\\DPLDNJ~@JVR\\~@z@RVRd@R|@DFL@x@]DKNm@Na@fAwBLm@@w@@QFMRUFMBM?{@BYDYLOb@GlBEzFa@nAC|@@t@FfAPpAZTDTAREJQBoAF{@",
+"average_heartrate": 97.1,
+"average_speed": 4.999,
+"elevation_gain": 28.2,
+"source": "strava",
+"streak": 6
+},
+{
+"run_id": 14141968810,
+"name": "\u6668\u95f4\u6e38\u6cf3",
+"distance": 2375.0,
+"moving_time": "0:46:09",
+"type": "Swim",
+"start_date": "2025-04-10 22:41:32+00:00",
+"start_date_local": "2025-04-11 06:41:32",
+"location_country": null,
+"summary_polyline": "",
+"average_heartrate": 137.0,
+"average_speed": 0.858,
+"elevation_gain": 0.0,
+"source": "strava",
+"streak": 6
 }
 ]
