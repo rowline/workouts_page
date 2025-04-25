@@ -13790,5 +13790,21 @@
 "elevation_gain": 48.4,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 14277397183,
+"name": "\u6668\u95f4\u6e38\u6cf3 Hard",
+"distance": 2675.0,
+"moving_time": "0:58:38",
+"type": "Swim",
+"start_date": "2025-04-24 22:36:31+00:00",
+"start_date_local": "2025-04-25 06:36:31",
+"location_country": null,
+"summary_polyline": "",
+"average_heartrate": 145.8,
+"average_speed": 0.76,
+"elevation_gain": 0.0,
+"source": "strava",
+"streak": 2
 }
 ]
