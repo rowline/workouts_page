@@ -13950,5 +13950,21 @@
 "elevation_gain": 1683.0,
 "source": "strava",
 "streak": 8
+},
+{
+"run_id": 14441882496,
+"name": "Sunday Morning Hike \ud83c\udf25\ufe0f",
+"distance": 25689.1,
+"moving_time": "4:54:36",
+"type": "Hike",
+"start_date": "2025-05-10 23:28:03+00:00",
+"start_date_local": "2025-05-11 07:28:03",
+"location_country": "\u83ab\u5e73\u5c71\u9547, \u5fb7\u6e05\u53bf, \u6e56\u5dde\u5e02, \u6d59\u6c5f\u7701, \u4e2d\u56fd",
+"summary_polyline": "goxyD_lxzUtPtOdCdABxEQzB_B~@cB~Ck@jCiBbCBdAnAlCcC~I[xGgC`FKbF_BfCXxAQ~AL|A_B|Gi@rE\\rC@hCgBfChA~EgBzDOtASt@mB`BlB~C`@`@l@fCr@rEWv@cA`@@~@mAnAgD`C}AVu@xA\\nDTUZ\\G`@HQRITd@qBA{@e@MLIZqBAW}Bi@sB_@|Bm@jBV`B~@fA?r@mAhB?]TKQ@NPCU}@tB}BfBu@vBXd@Wl@_@ZsAWFTQD]kAJUyBqBb@{AEiBgCwCLiC]c@{D_AUwBw@g@YVDOUELUa@T@^_@SZuAyBcDkAkAu@yFuBmAM_BuBuAiBg@gAmBcA_@eAr@G~@{A`Bd@dDq@hDmArA}EpBuEe@Ov@g@AuGeD_Cm@mBf@eDzB_CIgAZmCy@_BP{B]uN~B{BbBx@fExB|GKvAs@zAZjBdBlAdC\\l@l@t@tBzBz@~Bu@`CRnBq@`BmCjCiAb@y@zAO`BiB`Dw@|BsBdAcB|Aa@nCpAdKxKn@fC~AlBNdAnBlB~Dh@dFlDrAPp@h@hCj@tFk@vC~Ad@i@d@?jAbAVm@UqBf@q@JoEh@m@rEgApA?rD|EF`Au@zAf@dA`@HbDeBv@BxAgBtCs@bA_DCsAaAeGNiAhAqAnB?bCm@e@YgAd@sA?}Am@_Ap@s@lBYm@nBwDrDf@vAqAf@CdAh@lApCVzBh@l@?`BjA~CnBfBhARZw@bBcAtDw@bJtAp@e@nFYfE`AjCnALj@rCfDnBh@mBtB|@hEnCShDdElAXjBtDGz@fDSu@fBw@v@~@~@xAu@XaBn@w@HJnF}Df@{BbCsBhCkFZiAB\\R{AhDyE|GoBnDv@L{BKw@gC_CsCaDoBsDq@}Hl@yDwAsA{@cDyEmBc@oAgBcBE_@bAsCoA}@e@aAL@qAm@mAqBgGM}DuDoAXGh@|@v@s@ZuAvAy@K{@u@VcBy@u@sB@aAx@e@O{@kAc@CmAdCcA`AkAXgAfAaH~Am@h@e@xAL|C_AjBqBv@S|BaBdFBeDd@yA[aCxA{C{@sCuBg@_A^e@wAu@k@{@wCkB_BaC_AgAuCg@{JtAiEFcCf@{BIwAk@k@oAHqBpBgB}C{@Ls@Yb@sCCyCSaCbBcCBsE`CiEZiGhCqJ?s@aA{ACaBrB{CPwAlBsDrAw@\\cIsAq@wTqR",
+"average_heartrate": 128.9,
+"average_speed": 1.453,
+"elevation_gain": 1375.4,
+"source": "strava",
+"streak": 1
 }
 ]
