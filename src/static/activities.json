@@ -13966,5 +13966,53 @@
 "elevation_gain": 1375.4,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 14459943230,
+"name": "Evening Run \ud83c\udf19 \u817f\u9178\u6b7b\u4e86",
+"distance": 9998.8,
+"moving_time": "0:57:39",
+"type": "Run",
+"start_date": "2025-05-12 12:40:13+00:00",
+"start_date_local": "2025-05-12 20:40:13",
+"location_country": "\u54c8\u5c14\u6ee8\u5927\u53a6, 7045, \u666f\u7530\u5317\u4e03\u8857, \u5eb7\u6b23\u793e\u533a, \u83b2\u82b1\u8857\u9053, \u798f\u7530\u533a, \u6df1\u5733\u5e02, \u5e7f\u4e1c\u7701, 518000, \u4e2d\u56fd",
+"summary_polyline": "sjthCoj}vTHfBBzBAzGCp@@~@GfB?|ADx@Cr@RvBJvA@~DJfAGfA?v@@^Fr@EbAB`@CD?FDTNXBNIdADjDAlCT`BH\\FHJDNAv@Mn@ELETOLObA_BhCoDv@{@`@Uj@Kf@BtFhBfAb@j@L^?LEfAy@d@WzKeHpBsAhAi@dB_ArAe@zBo@bAQNIPUJ[AW_@}B[cC[_BEmAa@{CM{AIWo@a@OCI@sDz@c@NyA^oAj@s@b@gAh@sAv@m@d@wAz@}@t@uCxAkErC_@RkFdDmAz@wExCiChAQJ]b@Q^El@E|A@fADh@?t@Bj@AhAB|@DVLRL@vBOLCd@WLOd@w@v@kAn@w@|@oAz@_AVOXK^Cl@FtAl@jA^p@Xl@N`AZb@FRC~LaIx@e@|B}AnBeA`Ae@bBm@pA]b@Qx@MRINOJQBO@Qo@_FI]YoBG_Ac@_DOqBKO_@USEO?oAPaCn@kA`@q@^iA^wCfBeBnA{BjAa@X}BtA_C`BqDtB_DpB_Ah@{B`B}@l@yAp@wBv@i@f@K@IQK_AF_A?g@Ck@Ee@DaACsBKeACo@FuA?gAKmAAe@I{@@OFY@UKmBA_AL}FC}@@yAEaA?o@",
+"average_heartrate": 141.7,
+"average_speed": 2.891,
+"elevation_gain": 53.9,
+"source": "strava",
+"streak": 2
+},
+{
+"run_id": 14461902467,
+"name": "Morning Ride \u2601\ufe0f",
+"distance": 5383.7,
+"moving_time": "0:20:58",
+"type": "Ride",
+"start_date": "2025-05-12 21:56:40+00:00",
+"start_date_local": "2025-05-13 05:56:40",
+"location_country": "\u6df1\u5733\u5e02\u798f\u7530\u533a\u5916\u56fd\u8bed\u5b66\u6821\u666f\u7530\u6821\u533a, 1, \u666f\u7530\u5317\u4e03\u8857, \u5eb7\u6b23\u793e\u533a, \u83b2\u82b1\u8857\u9053, \u798f\u7530\u533a, \u6df1\u5733\u5e02, \u5e7f\u4e1c\u7701, 518000, \u4e2d\u56fd",
+"summary_polyline": "ckthCsv~vTdBoCf@o@jBqC~@oAJ]^Fb@Ih@?d@Fd@A|B[jE_@~KqAjAGhBWtD_@`BUbI{@tASnD[VIl@]h@O~De@hCW`AQVQDGA_@aAqJu@iISaDIwBHu@z@aDF]B_@?gC@SPe@PK|AMZMz@a@b@GpKIxABb@FVLZTx@z@TN^Jb@@XEXKrA{@xAw@t@O~@CrADf@Iv@AnFCnB@L@FDFLDbAFVHN~AbBRVJ\\Fn@BJLD`@@t@[DO@c@FY~@gBTk@Dc@?w@@OBG`@UFQ?MEg@DmADKBCzCIvAOrBMvAGt@?tBHdARfAXRBR?RGFI@gAF}@",
+"average_heartrate": 93.2,
+"average_speed": 4.28,
+"elevation_gain": 51.3,
+"source": "strava",
+"streak": 3
+},
+{
+"run_id": 14461902437,
+"name": "Morning Swim",
+"distance": 1775.0,
+"moving_time": "0:34:11",
+"type": "Swim",
+"start_date": "2025-05-12 22:25:21+00:00",
+"start_date_local": "2025-05-13 06:25:21",
+"location_country": null,
+"summary_polyline": "",
+"average_heartrate": 146.4,
+"average_speed": 0.865,
+"elevation_gain": 0.0,
+"source": "strava",
+"streak": 3
 }
 ]
