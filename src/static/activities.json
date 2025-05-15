@@ -14046,5 +14046,37 @@
 "elevation_gain": 24.3,
 "source": "strava",
 "streak": 4
+},
+{
+"run_id": 14483238963,
+"name": "Morning Ride \u2601\ufe0f",
+"distance": 34665.9,
+"moving_time": "0:59:48",
+"type": "Ride",
+"start_date": "2025-05-14 21:24:40+00:00",
+"start_date_local": "2025-05-15 05:24:40",
+"location_country": "\u666f\u7530\u5317\u8857, \u5eb7\u6b23\u793e\u533a, \u83b2\u82b1\u8857\u9053, \u798f\u7530\u533a, \u6df1\u5733\u5e02, \u5e7f\u4e1c\u7701, 518000, \u4e2d\u56fd",
+"summary_polyline": "idthCg{~vTbDqETSVSf@UlA[tEa@|De@`LiA|Ce@tFm@bGy@pIu@lHy@l@ERBJJX`@Jj@J~@X`D^bDz@bJVnBd@|ErEzf@RbBv@rInAxLXfDbCxV`BtSh@xEzCj\\l@pFb@~Et@|GhCjX`@`GHlC?jCEbBItBKbBK|@_@pCoDlTUjBK~AGlB?`EMvKKv\\KpFGlAOhAOv@_@tAgA`D_A~BeEhLw@|BwBjI}DpNiGbUa@bAqAhCe@tAa@lBGf@EnAId@q@zCa@~Be@nEIhAIdCAnB@~GNb[A`FQjECvCHlCJdAVfBHxBBlCVxNDhEHfCr@lf@RhJDfD?jD]dTU~KIzKQ|ME|BUpFG~CDt@?lAKzFQjGMpB_@fCmDbOQbAU|BIfBAlADxEHnXEzAIbAYrAa@pAm@lAw@bAm@l@m@f@wHpFaBpAiExDgL`MmPzPaKzKuMfNcArAmCrCgBzB_A`ACH?JLFRCZQlAwAxEiFrAsAhKwKdJyJtCwCxEeFnMwMfM{MxBkBdF{D~BwBz@gAh@oAh@eBP}@Fk@HuA@cAQg[?mCBaAJqBJ_AN{@x@gDvB_J`@{BJu@FgALaDJwMLcB?sDLcHNsDR{Hj@s[@aCTeL@iCSuNKsEg@c^i@m[KkDMsAo@qEQcE?wCDwA^uEHiDEcOIoIAwFBkDF_BRmCZaCL_@p@{ATo@d@gCx@qCd@kBX}APcCDa@J_@fCgJd@uAt@oBzBqIzAqFhDqMzIiVb@{AZ_BRuBFcBFyPCqAJmCBaBB_G@aKFqHD{@LqArB_M|@}Et@oFRmCNgE@}CC{AG_BI}Ac@mEQ_CoCyYWyBMmBe@_Fy@qIe@mFaCwVIgBg@iDW{Bm@wGOiBuBuTaBkPs@wHSqCqAuMkCsX",
+"average_heartrate": 159.0,
+"average_speed": 9.662,
+"elevation_gain": 168.0,
+"source": "strava",
+"streak": 5
+},
+{
+"run_id": 14483962214,
+"name": "Morning Run \u2601\ufe0f",
+"distance": 5546.3,
+"moving_time": "0:31:24",
+"type": "Run",
+"start_date": "2025-05-14 23:00:34+00:00",
+"start_date_local": "2025-05-15 07:00:34",
+"location_country": "\u9752\u6d77\u5927\u9152\u5e97, 7043, \u666f\u7530\u5317\u516b\u8857, \u5eb7\u6b23\u793e\u533a, \u83b2\u82b1\u8857\u9053, \u798f\u7530\u533a, \u6df1\u5733\u5e02, \u5e7f\u4e1c\u7701, 518000, \u4e2d\u56fd",
+"summary_polyline": "uzthCem~vTpA}AROLARJ`@`@vAnA\\NAAZ^HR@LGPKLi@^Y^}@xAERBHFFpB`Bx@`A`@v@`@vAd@bC\\hDVbBL`C?|BB~EA~BB|BArA@fAJlBE~@JnAD~ABdDJ|@AdBBpABNDDPAlBg@|BwAVKxA}@fBmAzEuC^WtCcB~@m@LMh@Y~@s@pBkAvFyDv@[pAc@|Aw@jCu@~A]XIHKJWJu@Cg@a@sCU{Ci@_FGuAw@wFg@cC[kASqAs@gDISQOGSQoAWaAmByI{@_Fa@yAWoAKWGEOAmATgAFy@JyAHq@NY@EDW@s@NuBX}BTiBF_BXo@ZST[n@Yz@MV_@h@}@x@i@jA",
+"average_heartrate": 138.9,
+"average_speed": 2.944,
+"elevation_gain": 19.8,
+"source": "strava",
+"streak": 5
 }
 ]
