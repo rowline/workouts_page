@@ -14526,5 +14526,37 @@
 "elevation_gain": 0.0,
 "source": "strava",
 "streak": 10
+},
+{
+"run_id": 14669140957,
+"name": "Lunch Ride \u2601\ufe0f\ud83e\udd75\ufe0f",
+"distance": 58295.0,
+"moving_time": "1:39:25",
+"type": "Ride",
+"start_date": "2025-06-02 04:15:23+00:00",
+"start_date_local": "2025-06-02 12:15:23",
+"location_country": "\u65b0\u5149\u6751, \u6f7c\u6e56\u9547, \u60e0\u57ce\u533a, \u5e7f\u4e1c\u7701, \u4e2d\u56fd",
+"summary_polyline": "qg|kCab}wToKcQaEwF}SaUsBsBuAcAuDuB}D_Bk\\eIsE{AyF}Bw\\uOwAgAmBkByBkDkA{Cs@aDWeCc@qK[_Em@yDeAiEeBqE_]or@mAsD_@iCOmC@qDh@aEbAeD|@cB~AwBfMsL|@}Af@uAb@iDKmDOiAa@uAyAgCsBgB}BaAeTiCiB_@cC{@iBiAqAiA{FaJiByBwAkAwBgA}q@qOeKcD_FoBaGsCkLiHkJ_IaDeDkEgFyHiLcGwLqBeFuNsc@uEoOaAoEc@uCi@aGkAeQm@wE_AaFG_AsEwMaP{i@kC}JiCmMcHac@yAgLc@iGQaIBeIZqHjAeLdE{Tt@sFl@wJRgM^uEhA_GvGkY`AiDhAoCbBsCtJuLpAuC`AsDz@kFj@mFvAc\\`C_Wh@cE~AoBh@_CCm@g@kAA]h@cHx@yG^qBh@{AbA}ArAkA~Aq@fBYvAAdPj@zDf@|C`AhEhCnBpBtEpGbKlJh@X^@^Ix@k@hUmR~BcCxAiCbAeCjAcE`AmFf@aHDoCGuEaAaJ{AeI}BeImBwEoCiF}EsHsC_GsBkGaDuLwBwF_CqEyTe_@sCcGqAoFWwCEmBPqFZ_Cl@oCjAyChBwC|BiCtDaDjFmDnRkI`G_DnEmDvImJzCeCxBoApDuAhDu@hHaArDaAjCkAtCsBRYWKyBzA_FpBqE`AkHdA{EvAeD`BgDhC_KtKuDtCcE|BqS~IsFjDeEnDsC`DeBxCsAvD}@hFQfCA|BJ~CXfCrAjFzB|EfVja@bB`DlB`FlDzM`B~EhCpFfGzJxB`EtBfF|AbFbBjInAjKNhHIrC[xDu@nEeBpGgAjCsAtBkAjAiRvO{BbBw@Xm@Ci@WyHaHqAyAkDcFaCaC_DoBcEuA_Fk@kNe@wC@qB^iBz@}AvAgAfBc@nAWvAcAvIc@xGiCpQaCnV_Bh]c@bEcA|Fs@rCeAdCgJdLoBzCmAjCsAjEkHv[y@hEa@dFW~Nc@dGs@bGwCjOgAvGgAnMOpEAdJRhHp@vIt@pFdIbg@tAfHpB|HdTzs@~AzHz@fBT|@vAjJhBlWr@bF|@lEpApEhRfl@lDzIpEzIvCzEpC|DrClDjFzFhJ|HhFpDlFzCdKvEpKlD`t@lPbClAvAnAlAzA`EtGx@bA|@|@bC~AxB`AhCl@~SdCvBz@xAlAxAzBt@xCHbD[tCa@tA}@xAqAxAkKjJ}BnDgA`Dk@pCWzDDlEz@fFfAbD`Zhm@lDbIpA`Fv@nFr@fO^nDr@vCpAdD`AfBlA|AbB`B|AfA`]zOzEnBnH`CzYdHvElBhDpBhEvDjV`XjOtVtBpE",
+"average_heartrate": 155.3,
+"average_speed": 9.773,
+"elevation_gain": 93.0,
+"source": "strava",
+"streak": 11
+},
+{
+"run_id": 14678142808,
+"name": "Morning Swim",
+"distance": 2367.1,
+"moving_time": "0:32:43",
+"type": "Swim",
+"start_date": "2025-06-02 22:28:42+00:00",
+"start_date_local": "2025-06-03 06:28:42",
+"location_country": null,
+"summary_polyline": "",
+"average_heartrate": 145.6,
+"average_speed": 1.206,
+"elevation_gain": 0.0,
+"source": "strava",
+"streak": 12
 }
 ]
