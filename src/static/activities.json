@@ -14638,5 +14638,37 @@
 "elevation_gain": 171.0,
 "source": "strava",
 "streak": 14
+},
+{
+"run_id": 14709738328,
+"name": "Morning Ride \ud83c\udf25\ufe0f",
+"distance": 4920.9,
+"moving_time": "0:19:53",
+"type": "Ride",
+"start_date": "2025-06-05 22:05:25+00:00",
+"start_date_local": "2025-06-06 06:05:25",
+"location_country": "\u9999\u6885\u8def, \u5eb7\u6b23\u793e\u533a, \u83b2\u82b1\u8857\u9053, \u798f\u7530\u533a, \u6df1\u5733\u5e02, \u5e7f\u4e1c\u7701, 518000, \u4e2d\u56fd",
+"summary_polyline": "acthCqa_wTj@u@VQPGRAj@Fz@Cz@QxC[r@KpD]jI_ApCStAGr@Mj@QbD[`Da@`KgA\\In@_@\\Kv@MdHs@z@OXQJIBKGgAe@eEmAcMQ_CIeC@i@Fc@j@gCLq@Be@F}BNe@LMNKzAWlAe@v@Mx@EtCC`EAnADd@H`@Vz@x@VPb@N\\@VC^KrC_Bp@W`@Il@CzABhBIjC?dCEbABPBNJDRJr@J^X`@z@z@X`@NZT|@HFHB\\@VINODOJs@FYz@eBNc@D_@@o@BWFKZ]FOE}ABSHOd@KnCIzCYhBGbA?pAFv@HpBd@TBTGHIDIBcAFc@",
+"average_heartrate": 87.4,
+"average_speed": 4.125,
+"elevation_gain": 14.3,
+"source": "strava",
+"streak": 15
+},
+{
+"run_id": 14709738169,
+"name": "Morning Swim",
+"distance": 2425.0,
+"moving_time": "0:32:08",
+"type": "Swim",
+"start_date": "2025-06-05 22:33:33+00:00",
+"start_date_local": "2025-06-06 06:33:33",
+"location_country": null,
+"summary_polyline": "",
+"average_heartrate": 149.7,
+"average_speed": 1.258,
+"elevation_gain": 0.0,
+"source": "strava",
+"streak": 15
 }
 ]
