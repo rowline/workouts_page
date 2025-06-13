@@ -14830,5 +14830,21 @@
 "elevation_gain": 171.0,
 "source": "strava",
 "streak": 21
+},
+{
+"run_id": 14782207400,
+"name": "Morning Swim",
+"distance": 1525.0,
+"moving_time": "0:28:09",
+"type": "Swim",
+"start_date": "2025-06-12 22:25:51+00:00",
+"start_date_local": "2025-06-13 06:25:51",
+"location_country": null,
+"summary_polyline": "",
+"average_heartrate": 129.2,
+"average_speed": 0.903,
+"elevation_gain": 0.0,
+"source": "strava",
+"streak": 22
 }
 ]
