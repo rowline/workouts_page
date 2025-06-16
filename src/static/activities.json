@@ -14880,6 +14880,22 @@
 "streak": 23
 },
 {
+"run_id": 14804752188,
+"name": "Night Ride",
+"distance": 31698.8,
+"moving_time": "1:30:11",
+"type": "VirtualRide",
+"start_date": "2025-06-15 07:10:16+00:00",
+"start_date_local": "2025-06-15 00:10:16",
+"location_country": "Calle 6A, Calima, Centro, Valle del Cauca, RAP Pac\u00edfico, 760537, \u54e5\u4f26\u6bd4\u4e9a / \u54e5\u502b\u6bd4\u4e9e",
+"summary_polyline": "st~Vbj{qMlT@Lj@E|Ha@\\wEBiChByTDuCmBkK?O`AD|Jz@Vbo@JR~@@rOPdB`NdPdB|@fCZnECvGk@`W?N|P^n@`AFt@_@^q@lAaJp@iAl@Q~@NdGhCz@K`@cA]gAcE{AsAoAu@}AkAgFEeCRk@|EmBPgHw@IsDhAaCYu@u@@_@\\UhCTdBUpBaCHgAu@QcGRsCWoDb@a@ULi@t@_@fEwAvBOvBqA|AsBp@cBF{DT}@xCeBXo@mFsOoAuAoD{BEmD}@MkAb@Qc@`CuBt@Ur@b@dCfDlF|D|@VnBEnDdATbBVVdAKnDyAl@u@ZoAi@eCDe@|CqFlBsBrEiB~@gAXeMl@U`NClAo@@yAm@i@aLWc@c@Iu@z@mAtIUPcDdD_Cf@iAHqAW_Bq@eAsAu@eBOaAJwAv@y@tAa@~Ak@Tk]L@pDZv@vRNlAf@b@tAQjAw@x@mFd@YlEoAx@iAIe@k@OsEc@}@eA_@iAZg@t@KrA?jHj@x@rt@BrAQh@y@HoA_@aAyAe@iDQq@u@SuAJoA`@w@x@]hCOl@}@Gmg@gCUgDNW`GeAhBwTxHsB\\{CBwAe@i@iARyAbAm@dHu@nHmCnGQnA_AIs@}@_@{JIGsF]y@s@[sG?i@S[u@b@aDdBiDlAi@dDD|@U|@}@h@wAIoAqAkBkA{C_CiBg@kADkA^aAjCqA`@q@NgFh@]|Af@rAeAv@Hd@t@J~C|@v@fBQ~@iAu@eHDgHa@iAsAkAwB[cBd@q@t@e@zBgAr@{Bk@wBfA{@We@y@GuAX_AzCoBjAuBvGeCXgBqAcBwDeAuB?eAf@gBjCiA\\m@g@QwCkAgBaB[oBjAy@|DkAvCEhA~@rHbC~DVnB[zA{AjBg@`BKtAPjD{@|DEpBj@~Dp@~@|BhARx@EbAgAnAiBLqAa@uBwB_CAkA|A{@rHeBlEuE`FyAn@_BL_B_AWiCv@{D|E_LQoJ`@aFlAkDvFcH^iBCoDjC_D`@}BM}AuAkBQsC{@g@s@n@gA~Hy@zA{A~@mAJw@]WkAj@wDzE_OpAyA~CqAr@aAFqAe@qAqA}@mA@kDfCsFnCyCxEuD~EGlD~AzGMdBc@xA{@zAiAbAkDEgAb@U|@?bDsAnC@~@z@rA`@nClBnCPjBOnA_B`BeBzCuDnAuB`B",
+"average_heartrate": 134.7,
+"average_speed": 5.858,
+"elevation_gain": 819.0,
+"source": "strava",
+"streak": 24
+},
+{
 "run_id": 14801861836,
 "name": "Morning Swim",
 "distance": 1100.0,
