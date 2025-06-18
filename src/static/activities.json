@@ -14926,5 +14926,37 @@
 "elevation_gain": 0.0,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 14833984373,
+"name": "Morning Run \ud83c\udf27\ufe0f\ud83e\udd75\ufe0f",
+"distance": 5150.5,
+"moving_time": "0:27:50",
+"type": "Run",
+"start_date": "2025-06-17 22:04:18+00:00",
+"start_date_local": "2025-06-18 06:04:18",
+"location_country": "\u8d5b\u683c\u666f\u82d1, 17, \u666f\u7530\u897f\u8def, \u5eb7\u6b23\u793e\u533a, \u83b2\u82b1\u8857\u9053, \u798f\u7530\u533a, \u6df1\u5733\u5e02, \u5e7f\u4e1c\u7701, 518000, \u4e2d\u56fd",
+"summary_polyline": "{ithCil_wTbAwAXYNEN?HBj@`@j@Nf@\\P@NITWn@eAjBsCr@w@dDmFjBmCRO~@Wr@]^Gj@?tAMrDe@fCUt@MbIy@|ASlCk@jCI|Fk@~@M`BO~AYlCWf@Kx@CnAQfEa@p@OdAGd@MLBJRNr@P~AAz@LtAN`CZhCDv@NdANzBX|BRbCh@pDBXAp@XvBN~A@b@BNLVHLJFj@?|B]`@?v@Kd@ApASl@GLFHNTzANd@FLLBh@Gz@?`BSbDk@`AGbAQrEk@xCg@p@Ax@SjAMtCg@RMRYTk@NiAFiA\\oEDwAFq@?aCHi@DSLI^AnALJBBD?PQbACjAK~A@NBBD?HGTYBSDiAJQNM",
+"average_heartrate": 131.7,
+"average_speed": 3.084,
+"elevation_gain": 138.8,
+"source": "strava",
+"streak": 2
+},
+{
+"run_id": 14833984386,
+"name": "Morning Run \ud83c\udf27\ufe0f\ud83e\udd75\ufe0f",
+"distance": 5762.7,
+"moving_time": "0:30:35",
+"type": "Run",
+"start_date": "2025-06-17 22:35:35+00:00",
+"start_date_local": "2025-06-18 06:35:35",
+"location_country": "\u65b0\u6d32\u4e03\u8857, \u7eff\u666f\u793e\u533a, \u65b0\u534e\u793e\u533a, \u6c99\u5934\u8857\u9053, \u798f\u7530\u533a, \u6df1\u5733\u5e02, \u5e7f\u4e1c\u7701, 518000, \u4e2d\u56fd",
+"summary_polyline": "_wnhCk{_wTBZJXJLVJZ@zC?VILKHODYC[GOKMUMc@EwCAWFKHOTCP?ZDPNTPLD?BEQQF?@BE?BCGMLL^FnBLl@?VGLKHODQA[GQKMWMc@IuC@UFMHMTCP?XJXJLTJZDvCCVIJINSDQ?QCYIMOMMAEDLH@BECDBABGCD@@C@@GK[IwBEk@?QDMHKJIX@XDNLTTNVFzBF^?TIJIHMFWAYEOIMKIOGWCwCMO@KDQRGNAPBb@P`@HHJ@BCCQBECK@J@CF@ECBLPDvBJZ?ZCNEJKLWBQAQGWKMSKYEeCIW?OBMFORGN?XDPLTLHXHpCJVAVELIJKJW@YEYMUSMG@?\\IDCEFCB??BE?@EC@AD]Oo@K}ACc@DULINEX?RHXHLTNPBvC@^ELGNQFO@[COMUKKWI{BIg@?Q@MDSNMTCNAPDXLTJFJAFEKM@AB??HECCIKE?EB?CD@BFA?NJDlCDb@ENEJKJMDY?QGYOSOGWCaC@]DSJIJITAXDXFNRPVFlC?h@EVKJMHW@[CQGOMKMEEBNR?DCBGA?EBAE@B?@B?E?@C?JGOG{CKg@@UJOPGNCV@NJTJFZF~CPV?RIRUFU@WAOKSOOKEiDG]BSJIHITAT@NHVNPRHVBjA?`AB\\CPIJIHU@WAOIUOOSKqCEc@@UFQLITCVBVHRJJRF~A@jABTARGHKJU@WCWKSQOMEyCIg@BSHONGTAV@LHRTPPF",
+"average_heartrate": 164.0,
+"average_speed": 3.14,
+"elevation_gain": 99.2,
+"source": "strava",
+"streak": 2
 }
 ]
