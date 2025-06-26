@@ -14990,5 +14990,37 @@
 "elevation_gain": 200.9,
 "source": "strava",
 "streak": 3
+},
+{
+"run_id": 14917685127,
+"name": "\u6668\u95f4\u8dd1\u6b65",
+"distance": 17001.7,
+"moving_time": "1:34:08",
+"type": "Run",
+"start_date": "2025-06-23 21:35:00+00:00",
+"start_date_local": "2025-06-24 05:35:00",
+"location_country": "\u94c1\u5fc3\u6865\u8857\u9053, \u96e8\u82b1\u53f0\u533a, \u5357\u4eac\u5e02, \u6c5f\u82cf\u7701, \u4e2d\u56fd",
+"summary_polyline": "mb~aEkyusUMJOByBCeAEmBAQAUGMOGOCKKmCA_ASiFE}CNsDLo@CKMGYCa@OIKO[OIk@Eu@Ku@Cm@K}@KqCg@YSiGm@wBYI@CDGd@GLGD[DGJAHG~Ai@tIBvAR|BTlAt@hBr@jA`A`Af@Zf@N`@RdBd@l@Dv@BNJDJF`C?dACr@Bd@?r@HbHEVKRYJq@DuC^qAL_D`@cFf@EGBELOZMv@QJMEUy@iB_@w@Wa@{BkCg@e@gAq@o@g@eCaBiA{@uDkC{AmA_AcA[e@w@wAc@oA}@cCi@oBk@cDIaA]eHGeDLyEHsAFqB?_BKgCGo@GsBi@sHc@aEk@sDY_CSu@[qBOq@]yBg@gBg@gCMyBAo@J^JxA?NCFC?IGQe@U}@O_@a@_BQkAC]@OFGXCzF^d@FHFFVN`C^bB^fCJbB`@`DOdCBlAHf@t@nEb@dDt@xJf@bIBfDSxDInCA|A?vAH~CZlEHl@`@lBVh@f@tAXf@|AlBxAtA|BbBrAn@`BhAx@b@xAbAlCpBzApAj@h@tBlCz@~An@zATx@RpALjDDXb@p@zAdBh@r@TZJXVbAxAfJTpBFjBA`B@pCEhEAfCEz@YjDQ~@e@~C]pBeA|D]jA_@vBYhAy@bBg@~@Mb@]|AO^]b@mAjA_@b@OXYz@NU`@y@Vc@d@i@d@_@b@o@Tm@TgANc@zAyCNk@h@mDjA{D`@uBr@gEZgCPaCHmDCu@DaABcDAcEIsAMs@c@aEc@qCg@gCMa@O[iBoB{@oAWi@IUE_@?oBEc@[kA]{@K_@k@mAI[S]]e@sA{AkAoAiBoAeBuAwByAmAy@sBiAwAcAmBaBw@w@sAcBUc@Wy@OcAAaCK}B@w@JeAJu@IiBEqBBk@JeARmFB_BCy@QaC?y@YsCWoBo@aHWyAGw@oAqGS{Ak@kCk@oEU_Cm@uDE{@?UBOJIJAdADr@D|AXr@Rr@f@`B|@vBlB|@p@nBbBv@|@n@l@l@`@fA|@v@|@xFzEd@p@RRfBxAfAbA|AhAXZLXdEfBr@Rj@Ln@Tx@TRPhBh@f@Tb@b@f@\\t@z@\\f@xCdDJAP[LKFAFDjDtDRb@bAjA",
+"average_heartrate": 139.2,
+"average_speed": 3.01,
+"elevation_gain": 108.0,
+"source": "strava",
+"streak": 1
+},
+{
+"run_id": 14917685446,
+"name": "\u6668\u95f4\u9a91\u884c \u2601\ufe0f\ud83e\udd75\ufe0f",
+"distance": 30362.0,
+"moving_time": "1:02:58",
+"type": "Ride",
+"start_date": "2025-06-25 21:35:34+00:00",
+"start_date_local": "2025-06-26 05:35:34",
+"location_country": "\u94c1\u5fc3\u6865\u8857\u9053, \u96e8\u82b1\u53f0\u533a, \u5357\u4eac\u5e02, \u6c5f\u82cf\u7701, \u4e2d\u56fd",
+"summary_polyline": "u_~aEwiwsUuE_FkC_D_AsA}BoCOa@A[Jg@JMFCDI?EIAiAJa@G]Qu@m@i@YoCy@oBu@uBi@o@YmAm@]UgAy@yCiCsLqKwM_M{AoAcAm@oAg@g@Mg@IB?gCScAOc@QSOGKI[Kq@QkDQaB[yBeBeKa@eDE}@A{@Dw@LqA@e@UaBGu@CiAAmABw@JmBNsEHqAHy@b@eDHiA@y@CaBFeBnAuTD[HOPId@EHCJML_@Ju@LWZKlB]z@UlGyBbCq@~XyGnh@wL|TuFbJsCxK_E|MkE`OaF`EoA|IuCvBq@`ASf@Gx@CbGEhIMpN@dOAbPGnREhHDhN?zBDbDL`i@hD~CL`CBlGArBK~DWzBSvAWnKsAfBWbB_@dBg@dFmB`B}@rA{@tJsHvAmAjFaEfHgDbJsEhC_AfCo@dCc@vCUdBGbAAvBBrJErEK`HAzDElD@fCDvDI|@KdBWdEw@xGwBfCaArC_AXEXBTNHJPj@pClNjA`HPfBJrC?~@CrAOlCMnASnA_@~Aq@nBy@hBeAdBiBzBcDpDqBpBkF~Fq@x@cA|AoA|BiAhCgA|Ck@xBuIf`@uAdGKb@EF?CKXQ~@@tAMvJGbD]jMa@pGI\\EH?C?BCrB]zFuClb@c@|FYdCSlAa@vBo@bC_AdCeAzB{ApCmApBoLpSaBjCuAbBQ\\a@jAWhAIx@[rHO|B}@pLi@pGuAlIcAlFu@|CaCdIg@rAk@pAeGpL_AdBaAnAse@li@eF`G}BdCiGjGeKnJyCtCuD|DkArAg@b@[NOB_@A}Cc@}Bg@eAYwAg@{J_EoKcE_Cq@oCk@gBU{BOeCGuCDsAJiAX_BTiB\\kHlBkBj@y@N_AFgGzAwB\\qCN{A@kACeF[kBE}Iw@kAQo@O{@[y@_@cAm@e@_@y@}@i@u@}@gBcDgIg@eBgA}C_@uAoGoYm@iBa@{@c@w@s@_Aw@s@c@UeBcAoDiB[SYWc@m@o@o@sFiGsGwHmCgDoQsUmFiGaCiCwAmB",
+"average_heartrate": 133.6,
+"average_speed": 8.037,
+"elevation_gain": 99.4,
+"source": "strava",
+"streak": 1
 }
 ]
