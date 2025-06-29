@@ -15022,5 +15022,21 @@
 "elevation_gain": 99.4,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 14946304907,
+"name": "Morning Ride \ud83c\udf25\ufe0f",
+"distance": 3902.9,
+"moving_time": "0:11:10",
+"type": "Ride",
+"start_date": "2025-06-28 21:28:17+00:00",
+"start_date_local": "2025-06-29 05:28:17",
+"location_country": "Y543, \u535a\u7f57\u53bf, \u5e7f\u4e1c\u7701, \u4e2d\u56fd",
+"summary_polyline": "c_zlCyr_wT\\y@^eALs@B]Ei@c@uBIo@?yCNeCGWm@_AWq@Ec@?kAh@aD|@gElAoEz@wC|AyEJc@ZqC`@mFb@{ED]HYJQVMRC\\?dEXhI`@`XzAT?PEf@_@LSDYBwAEqD@aCGoMAQISMKKE",
+"average_heartrate": 113.9,
+"average_speed": 5.825,
+"elevation_gain": 7.0,
+"source": "strava",
+"streak": 1
 }
 ]
