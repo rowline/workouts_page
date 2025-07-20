@@ -15262,5 +15262,21 @@
 "elevation_gain": 42.0,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 15166332585,
+"name": "Afternoon Ride \u2601\ufe0f\ud83c\udf19\ud83e\udd75\ufe0f",
+"distance": 51269.0,
+"moving_time": "1:47:57",
+"type": "Ride",
+"start_date": "2025-07-19 09:12:16+00:00",
+"start_date_local": "2025-07-19 17:12:16",
+"location_country": "\u65b0\u6d77\u7ebf, \u77f3\u6e6b\u8857\u9053, \u6ea7\u6c34\u533a, \u5357\u4eac\u5e02, \u6c5f\u82cf\u7701, \u4e2d\u56fd",
+"summary_polyline": "esp_Eo`utUrDOnMr@lb@~FxTnDv@MPQf@cHTcBdCiGhAcFtAaIpA_Dz@gEf@mHSgAsBiEkBeAkA}@_C_EcBu@sBm@IW@k@ZWvB?hGwAbCyA~BoBpCkB\\g@P_A?kCc@{JKkFkCmr@[eAg@k@uDi@}NI}Tz@eHOe@U}AkCWSmAc@aBcC_@OuEk@s@So@]cCeCuAs@K_@c@yGVYbC]RWFc@mAgc@U_GSqC}CoE_AeB}BqFu@iC?cBvBuPAk@MWsBkBw^c_@yJ{NeRiRo@gAyAu@mA}@S[?[|BoDRMV@hDdE`BnAjK|KfBh@rAhA^Hr@GrAq@bCqBzBcDfCoEjAoCn@sBZuBf@u@zLuGnBqAdEgDhD_Dl@SvCYjDeAdBw@nEiCbDwCxFsCpEqCbH{DdD}BpBY|Ae@zOwFxNiE|CeA~AiA`BZhTyBdCa@hCgAfCA|Mk@j@SbD_Cl@Wjk@cFv@QbEiDz@e@H_@sFmSwEsT}@iFo@eCDS~CwA?RLn@jC|LvFzUpEfTPh@\\RrQ{AjHcAlQmAr`@qFvVkAtLBtFg@jEGb@O`AoApCg@hCiAPPnAdCd@L`FQdCUx@UrATLRBpARrAJTXH`NFjGPrFEtM|@tMj@rSt@xFDpPtBhMjCzELnFe@t@@dEjArGzCtH|AvG`AtErB`a@`Tj@PzAFlAfCY~DFt@\\XlAEh@Lz@d@t@t@tDvFf@dAd@`Bn@~DCz@Ut@a@l@sAx@Y^gDtJwAbH?t@Np@rNpQlH~IhAbB`OvQp[ja@p@XjAKzOqE`FeBbWeHf@@VNr@fAjB|B~@xDLpAMrDL`Gz@hE|@tBTlA?rIZlGw@jHq@~BOhAc@xIPx@yD`EIpAFdCX|A`DlE|A|DjA|D|A`JIXURy@Ly@OkAq@y@AmIlC]^El@Tp@~DlHbKbMv@f@r@CpBs@xB@p@GnEqEfAi@hGUpAD^`A|EbG|EvGXp@xAlFtAjBd@hCJxFAhNZd@jAb@RZ@Rm@vB_@~CUbAqAhCoBrBm@lAw@hCiA`@~@YPD|CpDHj@Sz@@TzCzIDZC\\{CfEgM~RkHlL_AjBU~AcErj@SpA[Li_CuKoPwAwJqAmHoAuH_Bww@gRyE_A{GeAoI_A}Io@mI]{OE{KXwiGx[eL^{LDsOWiLm@oIs@iIcAqq@aKS?Mp@WJKU@m@g@U}q@oJmNkAaRe@a@JJT`@JpDHNN",
+"average_heartrate": null,
+"average_speed": 7.916,
+"elevation_gain": 73.0,
+"source": "strava",
+"streak": 1
 }
 ]
