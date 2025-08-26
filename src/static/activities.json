@@ -15646,5 +15646,21 @@
 "elevation_gain": 115.4,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 15577871319,
+"name": "\u5348\u95f4\u6e38\u6cf3",
+"distance": 1050.0,
+"moving_time": "0:20:32",
+"type": "Swim",
+"start_date": "2025-08-25 04:14:21+00:00",
+"start_date_local": "2025-08-25 12:14:21",
+"location_country": null,
+"summary_polyline": "",
+"average_heartrate": 151.5,
+"average_speed": 0.852,
+"elevation_gain": 0.0,
+"source": "strava",
+"streak": 1
 }
 ]
