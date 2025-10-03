@@ -15982,5 +15982,53 @@
 "elevation_gain": 0.0,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 16012623288,
+"name": "\u5348\u540e\u6e38\u6cf3 \ud83c\udf25\ufe0f",
+"distance": 196.0,
+"moving_time": "0:16:39",
+"type": "Swim",
+"start_date": "2025-10-02 13:27:35+00:00",
+"start_date_local": "2025-10-02 15:27:35",
+"location_country": null,
+"summary_polyline": "",
+"average_heartrate": 145.5,
+"average_speed": 0.196,
+"elevation_gain": 0.0,
+"source": "strava",
+"streak": 2
+},
+{
+"run_id": 16012623407,
+"name": "\u5348\u540e\u8dd1\u6b65 \ud83c\udf25\ufe0f",
+"distance": 6240.9,
+"moving_time": "0:39:07",
+"type": "Run",
+"start_date": "2025-10-02 15:10:22+00:00",
+"start_date_local": "2025-10-02 17:10:22",
+"location_country": "Carrer de Sant Jaume, Valldenguli, Calella, Maresme, Barcelona, \u52a0\u6cf0\u7f57\u5c3c\u4e9a, 08370, \u897f\u73ed\u7259",
+"summary_polyline": "kj~|FctdOGW[o@_@eBg@wAKe@c@sAAMDKVK^a@bDoBrAkAXKZAg@gCc@qAMUEa@@IDEz@_@DG?QOeACASCMYw@uEKgAMu@S}@Aq@]wAWkBUw@Mu@Qe@}@_E}@kDa@sBqA{EIk@?g@MUGWI{@DGNKD[AOGS?KFKt@YBEO[SiA@GLGIPJb@Nx@?TGDWJOJEH?JBZEDIIGOc@{Ak@cCk@uBOaAWcAASRYBWSsC?SH]AQs@uC]mBU{@}@iEMa@c@}BOmAyBgKO}@OYOOSCS?KGCIi@gDa@wBY}BYyAYgBKaANn@VtAz@xFf@hDFt@NfAFNF@`@CRHFFJTn@dDr@nCLv@Db@TlAz@jD\\pBnAfGx@fDFl@Kh@PlBD|@VbBATGT?HRn@z@`ETr@j@|BD\\Tz@@r@JXJ`@lApFZfAPz@Pv@BJAt@@RVxA|@fDj@jCn@tExAfJDl@Px@xAtJd@pCNhAr@tE",
+"average_heartrate": 144.5,
+"average_speed": 2.659,
+"elevation_gain": 17.5,
+"source": "strava",
+"streak": 2
+},
+{
+"run_id": 16012623286,
+"name": "\u508d\u665a\u884c\u8d70 \ud83c\udf25\ufe0f",
+"distance": 983.1,
+"moving_time": "0:13:37",
+"type": "Hike",
+"start_date": "2025-10-02 17:20:54+00:00",
+"start_date_local": "2025-10-02 19:20:54",
+"location_country": null,
+"summary_polyline": "",
+"average_heartrate": 102.1,
+"average_speed": 1.203,
+"elevation_gain": 4.6,
+"source": "strava",
+"streak": 2
 }
 ]
