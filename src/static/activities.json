@@ -16030,5 +16030,37 @@
 "elevation_gain": 4.6,
 "source": "strava",
 "streak": 2
+},
+{
+"run_id": 16019740618,
+"name": "\u6668\u95f4\u6e38\u6cf3 \ud83c\udf25\ufe0f",
+"distance": 1148.9,
+"moving_time": "0:44:44",
+"type": "Swim",
+"start_date": "2025-10-03 07:02:05+00:00",
+"start_date_local": "2025-10-03 09:02:05",
+"location_country": "Bahari Club, Passeig de Garb\u00ed, Valldenguli, Calella, Maresme, Barcelona, \u52a0\u6cf0\u7f57\u5c3c\u4e9a, 08370, \u897f\u73ed\u7259",
+"summary_polyline": "eh}|FkkdOd@|BPLy@yC",
+"average_heartrate": 138.6,
+"average_speed": 0.428,
+"elevation_gain": 3.1,
+"source": "strava",
+"streak": 3
+},
+{
+"run_id": 16019740841,
+"name": "\u5348\u95f4\u9a91\u884c \u2601\ufe0f",
+"distance": 46502.8,
+"moving_time": "1:51:33",
+"type": "Ride",
+"start_date": "2025-10-03 09:07:46+00:00",
+"start_date_local": "2025-10-03 11:07:46",
+"location_country": "Carretera de Sant Pol de Mar, Valldenguli, Calella, Maresme, Barcelona, \u52a0\u6cf0\u7f57\u5c3c\u4e9a, 08370, \u897f\u73ed\u7259",
+"summary_polyline": "ej}|FsgcOj@`I`CbJ|Fd_@nBlV`BbFlEzKZtAAlCi@zAc@`@kC~@mAbB[`BJxBt@fBlIvLl@jB`BfIbHrNvD|GrIbNtGrQbBrF|@vEdCfUbAtGhBtGfFhNnDpPv@xHQbEtAjBlFpUvCrIfFrM|AlH`AzJdBzEjAzHb@lAxC|F^rAJxBi@rFAnCzBnVnBjMh@bBxBxEpCnHdA~@hDv@n@x@^jAd@pE@fPZbC|BhKRpCNfIVdDn@nDpBlHX`B~DpOz@fCfDpGx@tB~@fFZ|C?lAr@tAxC`J|@zEtAt@r@vC~AjB~AbDLbAYbFL|A|A|DlAdB`A`C~DvNpBdF|HnYp@vCzC`Tx@vDdWjp@Jf@?pA|@j@h@v@fRdf@tQbb@nDzLhBdFn@jAzE~F`DxIjBhJHlAKfCx@vATx@dMbs@zEnZN|AQ|Bz@z@^`AjH~a@hAvEhLd[zJlYdCxHNnB|@x@pDnK~]zl@b@hBz@l@hFnIpI`MlB|Ex@|C~Ixe@?t@q@tAI|@`@dC~@xBCdCHb@ErAI@AuA\\_Dh@Q`@{@\\G^P~BxC@w@}D{Ek@cCcA}BeAoGmH{^wAwE@qAw@g@wKgPkf@sy@qA_DmUcq@uJqWmAgE_AwEsHmb@oIki@aJ}f@w@{E}@yHiBgIeD_JgEeFgAwBiGuRiRsc@km@_}Ai@uB_CqNs@_Gi@aC{HaY_CkGuEoPwAqDaAsAu@iBM{APkEIcAwAuCuByCw@sD{A{CgEmM_BgLsAoEJHkDgGmBcGgHgXm@mDa@qE]kL{CePC}Pm@iE[aAs@w@iD{@}@q@oCoH_DuHwBsNqBeTGcDj@eHK}Aa@wAgEwIkAaIcA{B]uAgAuKqAmGcEkKsCqI}B{IaCwKe@_Ec@kBy@aI_DmOgAwDkEgLcBsG{@uF}B_TmAuGmBcGaGiPcKkPqKmS}@sC}@}Fw@uBuHgK}@wBK}@BcAd@cBr@y@rCuAt@kA\\cBC{Bu@aC{@cDWMy@eB}AyDe@gBwBiW{Fa_@cCoJGcBPoCNFV|@IJF@WiAa@]o@oAeAgD_AqJg@iAqAu@kFq@iDNyB}@c@aAuLqa@Ew@Pi@vBuAjE{DuAgHr@_@RRn@rE]lA\\jABq@t@a@F]cAeFwBkNY{DmDqQkAeEc@cCm@QaFqSDm@p@m@@_@gDkO]O_ElC}DrBnBpFtDcC`@EhB~H",
+"average_heartrate": 129.3,
+"average_speed": 6.948,
+"elevation_gain": 194.9,
+"source": "strava",
+"streak": 3
 }
 ]
