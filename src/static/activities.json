@@ -16078,5 +16078,53 @@
 "elevation_gain": 6.4,
 "source": "strava",
 "streak": 4
+},
+{
+"run_id": 16046382059,
+"name": "\u6668\u95f4\u884c\u8d70 \ud83c\udf27\ufe0f",
+"distance": 2026.0,
+"moving_time": "0:24:16",
+"type": "Hike",
+"start_date": "2025-10-05 04:49:20+00:00",
+"start_date_local": "2025-10-05 06:49:20",
+"location_country": "C\u00e0mping El Far, Carretera de Sant Pol de Mar, Valldenguli, Calella, Maresme, Barcelona, \u52a0\u6cf0\u7f57\u5c3c\u4e9a, 08370, \u897f\u73ed\u7259",
+"summary_polyline": "_j~|FordO[wAk@cBg@eAsBoHUqA`@kAH?BEd@a@f@YvAmApB{ARUBSh@OZUBSIu@{@{Eu@_Fw@wE@ETIAKBF?DCBWBUICEGYs@mC]gB[iAKm@c@gB",
+"average_heartrate": 97.1,
+"average_speed": 1.391,
+"elevation_gain": 18.6,
+"source": "strava",
+"streak": 5
+},
+{
+"run_id": 16046105839,
+"name": "Morning Ride \ud83c\udf27\ufe0f",
+"distance": 178031.0,
+"moving_time": "6:22:26",
+"type": "Ride",
+"start_date": "2025-10-05 08:19:21+00:00",
+"start_date_local": "2025-10-05 10:19:21",
+"location_country": "Carrer d'Anselm Clav\u00e8, Calella, Maresme, Barcelona, \u52a0\u6cf0\u7f57\u5c3c\u4e9a, 08370, \u897f\u73ed\u7259",
+"summary_polyline": "yv~|FqjgOlOhu@kLtK|Plh@|Gm@`IrD`Q~fAdB|UtIvUy@tFyFlEC~EjKpOjCxLfXze@pJlXhGle@bOjh@j@tObUzq@hIte@bFjK]pPdFzb@pH|R~HjFh@tWjFze@nJf_@|GpOxIxa@rItMAbKnP`d@vPfx@bjAfwCtKrRnZpgBUrDtA`ApL~m@d[n_Ax~@z`BhKxi@y@bEdCjFNlh@hHrs@tElRj\\lx@qW_n@{Ic[oIg|@v@ud@|V|\\VfFzCtCpc@jdApb@rg@ze@tu@lU`g@`l@t|Abf@buB|d@dnCaXtJkQ|TyI|FcKl_@nHa\\n]__@b[uEhd@xdDxUhgAto@|gC~v@f}A{u@y|Amp@{gC{VelAsj@mbEab@g{Bec@ilBcaAabCgx@uoAsUaZiIcRn]dk@~BPpAqEaLsQiFdEgDeEaIyRgHmHeOqf@m[cb@cQox@gu@omAuc@wnAai@a|CeLuSyiA_wCcLwk@{Tmp@AoJ}Ni]gDeRmRgl@oG{i@k@cWcIsFiHyQkFae@`@cOkFeLgIee@}K}ZgL}o@mL{_@wGqe@aJuWc]et@yJaOJcFbGoEl@wFqIgUuTo~AoSwEaOuf@nPti@|H_@~G`DlTl~AnIjUs@tF_GrEExEfKpOtCpMdXte@vJdYbGhd@`Ojh@p@xObUpr@fI`e@xEtJ[|OnFvd@nHhRhIlGZhVlG`i@tRdm@hAxLjGtStI`N@nKtYb}@bGb^|iA`wCbLtSdZ`fBOpE~ApAvJzi@t\\~bA`_ApaBbKti@y@fEbC~EVvi@`Hdr@dG|Uf[ru@gXso@iIcYuIi}@t@od@rUtZfAnHfCnB|c@~dAlg@~m@la@xo@zSfd@`m@|~Aze@vsBhe@toCqFnEsPrDe\\x\\yJh_@fIq]fLgIpOkS|ZqEhd@ndDzVnjArn@zdCbw@j}Aiv@i}A_q@gjCkUagAgk@ceEob@y|Bsc@}lBu~@}|Buy@grAcUiY{IwRd^~k@|DgBwK{TuGlDuM_YaGqF}O{g@y[ob@_Qwx@iu@gmAoe@ctAsg@ywCuKmRajAywCaGe^uYe}@D_J_Os]}D}SgRuk@eGei@e@gVeI}FoHmRiFme@d@qNiF_LgI_e@gPah@mJwj@_JyWoGme@mJcXwWod@ePu^JyEjGyEb@iGoI}TmBsVgQyfAsSyEuMuc@rJkMk]q}A",
+"average_heartrate": null,
+"average_speed": 7.759,
+"elevation_gain": 819.0,
+"source": "strava",
+"streak": 5
+},
+{
+"run_id": 16046382102,
+"name": "\u665a\u95f4\u884c\u8d70 \ud83c\udf19",
+"distance": 3954.5,
+"moving_time": "0:40:22",
+"type": "Hike",
+"start_date": "2025-10-05 19:37:57+00:00",
+"start_date_local": "2025-10-05 21:37:57",
+"location_country": "Passeig de Garb\u00ed, Valldenguli, Calella, Maresme, Barcelona, \u52a0\u6cf0\u7f57\u5c3c\u4e9a, 08370, \u897f\u73ed\u7259",
+"summary_polyline": "{c~|FsoeOQo@Gi@M{@Yu@y@cF?WH[Eq@g@{COq@a@aCA_@EM@]Cq@EYMe@MkAYoAGGOCSm@UmAMa@g@}Bm@yBs@wDMUEYW{@CaAFYCURUBG@@A??BSy@Q@EAYi@CQSi@UkA?MBC@@CFQk@@K|@c@@B@GGKEAU?QFc@?CFBTGNGDEGG?B^FZRh@Pt@h@rCHx@R`ADj@X~@APA@@E@?CCBBOPEH@Nb@jAvG~XZfBx@zFbAjGJ`A?b@KRQPCHH^?Ha@TuD|Cq@d@?PAD_@?g@P_@FMLAHBTT`@Vr@vGpT",
+"average_heartrate": 101.7,
+"average_speed": 1.633,
+"elevation_gain": 25.4,
+"source": "strava",
+"streak": 5
 }
 ]
