@@ -16190,5 +16190,21 @@
 "elevation_gain": 90.2,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 16075741081,
+"name": "\u5348\u540e\u884c\u8d70 \ud83c\udf25\ufe0f",
+"distance": 3412.8,
+"moving_time": "0:48:39",
+"type": "Hike",
+"start_date": "2025-10-08 13:24:21+00:00",
+"start_date_local": "2025-10-08 15:24:21",
+"location_country": "1, Passeig de Joan de Borb\u00f3, la Barceloneta, Ciutat Vella, \u5df4\u585e\u7f57\u90a3, Barcelon\u00e8s, Barcelona, \u52a0\u6cf0\u7f57\u5c3c\u4e9a, 08003, \u897f\u73ed\u7259",
+"summary_polyline": "wup{FmwhLmCkEm@o@_@i@wCiFs@}@eCqCcAq@k@m@GCm@Gq@h@c@dACdAHp@tBbBl@p@HZDb@l@j@JlAc@vALd@~@`Ab@ZhB`Al@f@NFEAOD@O?NA?@EQb@Kb@QZWt@If@I`AI`@?\\Lf@RxAb@z@fBvB\\\\b@Xz@bAICYg@Y[a@SFA^h@FP_@bAYf@]PKPI^DOj@o@h@mATSFCL@^P`@^JXb@]HQB@NIh@]q@b@YVc@R[j@_@b@KD]FWPoApA]VSRWLSRGNGBGHMDy@h@W^_A|@QVa@Va@^q@b@]PMNQJ]Za@d@i@`@m@j@aBhAi@Vy@ZoAp@",
+"average_heartrate": 84.3,
+"average_speed": 1.169,
+"elevation_gain": 26.6,
+"source": "strava",
+"streak": 2
 }
 ]
