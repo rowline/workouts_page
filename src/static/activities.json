@@ -16254,5 +16254,21 @@
 "elevation_gain": 70.8,
 "source": "strava",
 "streak": 2
+},
+{
+"run_id": 16307382085,
+"name": "\u6668\u95f4\u884c\u8d70 \ud83c\udf27\ufe0f",
+"distance": 1011.8,
+"moving_time": "0:09:41",
+"type": "Hike",
+"start_date": "2025-10-30 21:57:06+00:00",
+"start_date_local": "2025-10-31 05:57:06",
+"location_country": "\u7533\u957f\u8def, \u65b0\u8679\u8857\u9053, \u95f5\u884c\u533a, 201106, \u4e2d\u56fd",
+"summary_polyline": "umk}DailcV{AtAm@x@qDlB]LtAeCZq@HIQu@[aBQ_BAuA@UPcAAESyAgAQ@t@GAGa@LgB",
+"average_heartrate": 85.6,
+"average_speed": 1.742,
+"elevation_gain": 6.8,
+"source": "strava",
+"streak": 1
 }
 ]
