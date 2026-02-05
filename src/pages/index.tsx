@@ -1,22 +1,18 @@
 import { useEffect, useState } from 'react';
 import { Analytics } from '@vercel/analytics/react';
 import Layout from '@/components/Layout';
-import LocationStat from '@/components/LocationStat';
 import RunMap from '@/components/RunMap';
 import RunTable from '@/components/RunTable';
-import SVGStat from '@/components/SVGStat';
-import YearsStat from '@/components/YearsStat';
+import TypeFilter from '@/components/TypeFilter';
+import SummaryCards from '@/components/SummaryCards';
 import useActivities from '@/hooks/useActivities';
 import useSiteMetadata from '@/hooks/useSiteMetadata';
-import { IS_CHINESE } from '@/utils/const';
 import {
   Activity,
   IViewState,
   filterAndSortRuns,
-  filterCityRuns,
-  filterTitleRuns,
-  filterTypeRuns,
   filterYearRuns,
+  filterTypeRuns,
   geoJsonForRuns,
   getBoundsForGeoData,
   scrollToMap,
@@ -27,12 +23,16 @@ import {
 
 const Index = () => {
   const { siteTitle } = useSiteMetadata();
-  const { activities, thisYear } = useActivities();
+  const { activities, thisYear, years } = useActivities();
   const [year, setYear] = useState(thisYear);
   const [runIndex, setRunIndex] = useState(-1);
+  const [selectedType, setSelectedType] = useState('All');
+
+  // Filter runs based on year and type
   const [runs, setActivity] = useState(
-    filterAndSortRuns(activities, year, filterYearRuns, sortDateFunc)
+    filterAndSortRuns(activities, year, filterYearRuns, sortDateFunc, null, null)
   );
+
   const [title, setTitle] = useState('');
   const [geoData, setGeoData] = useState(geoJsonForRuns(runs));
   // for auto zoom
@@ -43,61 +43,58 @@ const Index = () => {
     ...bounds,
   });
 
-  const changeByItem = (
-    item: string,
-    name: string,
-    func: (_run: Activity, _value: string) => boolean
-  ) => {
-    scrollToMap();
-    if (name != 'Year') {
-      setYear(thisYear);
+  // Re-filter when year or type changes
+  useEffect(() => {
+    let filtered = activities;
+
+    // 1. Filter by Year (if not 'Total', though TimeFilter is usually year specific)
+    if (year !== 'Total') {
+      filtered = filtered.filter((run) => filterYearRuns(run, year));
     }
-    setActivity(filterAndSortRuns(activities, item, func, sortDateFunc));
+
+    // 2. Filter by Type
+    if (selectedType !== 'All') {
+      filtered = filtered.filter((run) => filterTypeRuns(run, selectedType));
+    }
+
+    // 3. Sort
+    filtered = filtered.sort(sortDateFunc);
+
+    setActivity(filtered);
+    setGeoData(geoJsonForRuns(filtered));
     setRunIndex(-1);
-    setTitle(`${item} ${name} Heatmap`);
-  };
+
+    if (year !== 'Total') {
+      setTitle(`${year} ${selectedType === 'All' ? 'Heatmap' : selectedType + ' Heatmap'}`);
+    } else {
+      setTitle(`Total Heatmap`);
+    }
+
+  }, [year, selectedType, activities]);
+
+  // Handle map bounds update when runs change
+  useEffect(() => {
+    // Only auto-zoom if we have runs and bounds
+    if (runs.length > 0) {
+      const newBounds = getBoundsForGeoData(geoJsonForRuns(runs));
+      if (newBounds && (viewState.zoom ?? 0) > 3) {
+        setViewState(prev => ({
+          ...prev,
+          ...newBounds
+        }));
+      }
+    }
+  }, [runs]);
 
   const changeYear = (y: string) => {
-    // default year
     setYear(y);
-
-    if ((viewState.zoom ?? 0) > 3 && bounds) {
-      setViewState({
-        ...bounds,
-      });
-    }
-
-    changeByItem(y, 'Year', filterYearRuns);
-    clearInterval(intervalId);
-  };
-
-  const changeCity = (city: string) => {
-    changeByItem(city, 'City', filterCityRuns);
-  };
-
-  const changeTitle = (title: string) => {
-    changeByItem(title, 'Title', filterTitleRuns);
+    scrollToMap();
   };
 
   const changeType = (type: string) => {
-    changeByItem(type, 'Type', filterTypeRuns);
-  };
-
-  const changeTypeInYear = (year: string, type: string) => {
+    setSelectedType(type);
     scrollToMap();
-    // type in year, filter year first, then type
-    if (year != 'Total') {
-      setYear(year);
-      setActivity(filterAndSortRuns(activities, year, filterYearRuns, sortDateFunc, type, filterTypeRuns));
-    }
-    else {
-      setYear(thisYear);
-      setActivity(filterAndSortRuns(activities, type, filterTypeRuns, sortDateFunc));
-    }
-    setRunIndex(-1);
-    setTitle(`${year} ${type} Type Heatmap`);
   };
-
 
   const locateActivity = (runIds: RunIds) => {
     const ids = new Set(runIds);
@@ -127,6 +124,7 @@ const Index = () => {
     });
   }, [geoData]);
 
+  // Animation for map data loading
   useEffect(() => {
     const runsNum = runs.length;
     // maybe change 20 ?
@@ -144,89 +142,52 @@ const Index = () => {
     setIntervalId(id);
   }, [runs]);
 
-  useEffect(() => {
-    if (year !== 'Total') {
-      return;
-    }
-
-    let svgStat = document.getElementById('svgStat');
-    if (!svgStat) {
-      return;
-    }
-
-    const handleClick = (e: Event) => {
-      const target = e.target as HTMLElement;
-      if (target.tagName.toLowerCase() === 'path') {
-        // Use querySelector to get the <desc> element and the <title> element.
-        const descEl = target.querySelector('desc');
-        if (descEl) {
-          // If the runId exists in the <desc> element, it means that a running route has been clicked.
-          const runId = Number(descEl.innerHTML);
-          if (!runId) {
-            return;
-          }
-          locateActivity([runId]);
-          return;
-        }
-
-        const titleEl = target.querySelector('title');
-        if (titleEl) {
-          // If the runDate exists in the <title> element, it means that a date square has been clicked.
-          const [runDate] = titleEl.innerHTML.match(
-            /\d{4}-\d{1,2}-\d{1,2}/
-          ) || [`${+thisYear + 1}`];
-          const runIDsOnDate = runs
-            .filter((r) => r.start_date_local.slice(0, 10) === runDate)
-            .map((r) => r.run_id);
-          if (!runIDsOnDate.length) {
-            return;
-          }
-          locateActivity(runIDsOnDate);
-        }
-      }
-    };
-    svgStat.addEventListener('click', handleClick);
-    return () => {
-      svgStat && svgStat.removeEventListener('click', handleClick);
-    };
-  }, [year]);
-
   return (
     <Layout>
-      <div className="w-full lg:w-1/4">
-        {(viewState.zoom ?? 0) <= 3 && IS_CHINESE ? (
-          <LocationStat
-            changeYear={changeYear}
-            changeCity={changeCity}
-            changeType={changeType}
-            onClickTypeInYear={changeTypeInYear}
-          />
-        ) : (
-          <YearsStat year={year} onClick={changeYear} onClickTypeInYear={changeTypeInYear} />
-        )}
-      </div>
-      <div className="w-full lg:w-4/5">
-        <RunMap
-          title={title}
-          viewState={viewState}
-          geoData={geoData}
-          setViewState={setViewState}
-          changeYear={changeYear}
-          thisYear={year}
+      <div className="min-h-screen font-sans text-slate-900 dark:text-slate-100 pb-20 w-full">
+        {/* 2. Map Module */}
+        <div className="mb-10">
+          <div className="flex items-center mb-4">
+            <h2 className="text-3xl font-extrabold bg-black dark:bg-white text-white dark:text-black px-4 py-1 inline-block transform -skew-x-6">
+              Workouts Map
+            </h2>
+          </div>
+          <div className="relative w-full h-[400px] md:h-[500px] bg-[#1a1a1a] rounded-lg overflow-hidden shadow-xl border border-gray-200 dark:border-gray-800 group">
+            <RunMap
+              title={title}
+              viewState={viewState}
+              geoData={geoData}
+              setViewState={setViewState}
+              changeYear={changeYear}
+              thisYear={year}
+            />
+          </div>
+        </div>
+
+        {/* 3. Type Selection Module */}
+        <TypeFilter
+          selectedType={selectedType}
+          onSelectType={changeType}
         />
-        {year === 'Total' ? (
-          <SVGStat />
-        ) : (
-          <RunTable
-            runs={runs}
-            locateActivity={locateActivity}
-            setActivity={setActivity}
-            runIndex={runIndex}
-            setRunIndex={setRunIndex}
-          />
-        )}
+
+        {/* 4. Category Summary Module */}
+        <SummaryCards activities={runs} />
+
+        {/* 5. Detail Module */}
+        <RunTable
+          runs={runs}
+          locateActivity={locateActivity}
+          setActivity={setActivity}
+          runIndex={runIndex}
+          setRunIndex={setRunIndex}
+        />
+
+        {/* Footer info */}
+        <div className="mt-20 pt-10 border-t border-gray-200 dark:border-gray-800 text-center text-gray-400 text-sm">
+          <p>Displaying workouts for Rollin</p>
+          <p className="mt-2 text-xs text-gray-300 dark:text-gray-500">Last synced: Just now</p>
+        </div>
       </div>
-      {/* Enable Audiences in Vercel Analytics: https://vercel.com/docs/concepts/analytics/audiences/quickstart */}
       <Analytics />
     </Layout>
   );
