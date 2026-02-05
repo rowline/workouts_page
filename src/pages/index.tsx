@@ -83,10 +83,10 @@ const Index = () => {
     changeByItem(type, 'Type', filterTypeRuns);
   };
 
-  const changeTypeInYear = (year:string, type: string) => {
+  const changeTypeInYear = (year: string, type: string) => {
     scrollToMap();
     // type in year, filter year first, then type
-    if(year != 'Total'){
+    if (year != 'Total') {
       setYear(year);
       setActivity(filterAndSortRuns(activities, year, filterYearRuns, sortDateFunc, type, filterTypeRuns));
     }
@@ -194,9 +194,6 @@ const Index = () => {
   return (
     <Layout>
       <div className="w-full lg:w-1/4">
-        <h1 className="my-12 text-5xl font-extrabold italic">
-          <a href="/">{siteTitle}</a>
-        </h1>
         {(viewState.zoom ?? 0) <= 3 && IS_CHINESE ? (
           <LocationStat
             changeYear={changeYear}
@@ -205,7 +202,7 @@ const Index = () => {
             onClickTypeInYear={changeTypeInYear}
           />
         ) : (
-          <YearsStat year={year} onClick={changeYear} onClickTypeInYear={changeTypeInYear}/>
+          <YearsStat year={year} onClick={changeYear} onClickTypeInYear={changeTypeInYear} />
         )}
       </div>
       <div className="w-full lg:w-4/5">
