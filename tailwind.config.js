@@ -1,5 +1,6 @@
-/** @type {import('tailwindcss').Config} */
 export default {
+  // 开启 'class' 模式，允许通过 HTML 标签上的 class="dark" 来切换
+  darkMode: 'class',
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx,css}'],
   theme: {
     fontFamily: {

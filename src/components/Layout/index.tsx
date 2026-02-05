@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import useSiteMetadata from '@/hooks/useSiteMetadata';
+import Header from '@/components/Header';
 import styles from './style.module.css';
 
 const Layout = ({ children }: React.PropsWithChildren) => {
@@ -19,6 +20,7 @@ const Layout = ({ children }: React.PropsWithChildren) => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
       </Helmet>
+      <Header />
       <div className="mb-16 p-4 lg:flex lg:px-16 lg:py-8">
         {children}
       </div>

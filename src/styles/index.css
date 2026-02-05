@@ -14,6 +14,13 @@ body {
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  /* 添加以下样式以支持深色模式背景和文字颜色切换，并增加过渡动画 */
+  @apply bg-white text-slate-900 transition-colors duration-300 dark:bg-slate-900 dark:text-slate-50;
+}
+
+/* 链接在深色模式下的颜色适配 */
+a {
+  @apply transition-colors duration-200;
 }
 
 iframe {
@@ -25,4 +32,18 @@ hr {
   border-bottom: 1px solid;
   border-color: #0003;
   margin: 2rem 0;
+  @apply dark:border-gray-700;
+  /* 深色模式下分割线变暗 */
+}
+
+/* Icon sizing for navigation buttons */
+.icon {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+}
+
+.icon svg {
+  width: 100%;
+  height: 100%;
 }
