@@ -3,5 +3,12 @@
     "deploymentEnabled": {
       "gh-pages": false
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/sports",
+      "permanent": true
+    }
+  ]
 }
