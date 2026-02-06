@@ -1,6 +1,6 @@
 import React from 'react';
 import { Activity, RunIds, sortDateFunc, formatPace, formatRunTime } from '@/utils/utils';
-import { MapPin } from 'lucide-react';
+
 
 interface IRunTableProperties {
   runs: Activity[];
@@ -38,7 +38,7 @@ const RunTable = ({
         <table className="w-full text-left border-collapse">
           <thead>
             <tr className="text-gray-400 text-xs uppercase tracking-wider border-b border-gray-200 dark:border-gray-800">
-              <th className="p-4 font-medium w-1/4">Name / Location</th>
+              <th className="p-4 font-medium w-1/4">Name</th>
               <th className="p-4 font-medium text-right">Type</th>
               <th className="p-4 font-medium text-right">KM</th>
               <th className="p-4 font-medium text-right hidden sm:table-cell">Elev</th>
@@ -64,11 +64,7 @@ const RunTable = ({
                     <div className="font-bold text-gray-900 dark:text-white group-hover:text-amber-500 dark:group-hover:text-[#4ade80] transition-colors">
                       {run.name}
                     </div>
-                    {run.location_country && (
-                      <div className="text-xs text-gray-500 mt-1 flex items-center">
-                        <MapPin size={10} className="mr-1" /> {run.location_city || 'Unknown'}, {run.location_country}
-                      </div>
-                    )}
+
                   </td>
                   <td className="p-4 text-right">
                     <span
