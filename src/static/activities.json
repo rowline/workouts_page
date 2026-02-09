@@ -16398,5 +16398,21 @@
 "elevation_gain": 0.0,
 "source": "strava",
 "streak": 4
+},
+{
+"run_id": 17329646963,
+"name": "Afternoon Walk \ud83c\udf1e",
+"distance": 5846.2,
+"moving_time": "1:35:57",
+"type": "Hike",
+"start_date": "2026-02-08 06:52:52+00:00",
+"start_date_local": "2026-02-08 14:52:52",
+"location_country": "\u592a\u5e73\u95e8\u8def, \u5b5d\u9675\u536b\u8857\u9053, \u7384\u6b66\u533a, \u5357\u4eac\u5e02, \u6c5f\u82cf\u7701, 210016, \u4e2d\u56fd",
+"summary_polyline": "ywubEg~etU}@Y]YGAMKaAKyAe@m@GQEg@s@Ug@W}@A[@]DQ@a@BGBWESDAI@ISWYQGu@@c@R[IWMKAe@LSLYXMDQAKKASBKDE|@]LMLCXO`@GPILAJGz@CZKROXINDv@v@HLF@j@f@b@RR@DBVAxAJNCPBXATFD?XLd@HLGFK?YYEK?KFUDUEgB_Aw@g@s@a@a@_@QYc@uASYaAc@WE[COBCD@RF?KSAYHOBADBFEHIA]@SBE@WJKACDAHSVQFMHC?AN?HCLb@B?FJFNDBABEDCACDIECD@AIK?A@AAEG@FRCFFBERFBCFZL?JH?@BC?BC?IBC?BOBIEIW@DBSDIAAIJ@AE@@GKDHGH@JIN?HNNH?FBCIP@TEA@GB?AMA@GGBXBC@JBOAHC@@A@@ANDBNG^?ZCD@F?JDDHBPMAI@EFB@?@E@BFDOFBDCAAFB?BC?@B?ZGBEEB?A?KOA??ECG@AA??EZGCKKCEGo@CS@EB?@QBQKIA?K_@MC@@@CDUBC?GMCCE@YP@DC@SDYNEF@LP?FBb@B`@TNDZRBLNL@VNN@`@BDHFV\\fAv@ZLFFNHBD\\PLDf@XZJN@TELIVHHVCLAPLRTBNDPJHPJDRf@NRRLHLPDBDJ\\RHBH\\\\TLBAVPJPPL?DXDL?\\Gj@Dj@Ed@XZ@FFVBLL^F@XFN?HEJBHA`@DF@NATBb@|@\\p@Np@XZFJF^DBBD?VNt@VLLDH@TGn@?EEIQHe@v@o@^SRIPAJKNAzAFrD?ZJd@^l@RVH|@",
+"average_heartrate": 93.8,
+"average_speed": 1.015,
+"elevation_gain": 324.8,
+"source": "strava",
+"streak": 5
 }
 ]
