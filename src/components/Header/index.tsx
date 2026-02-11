@@ -2,19 +2,34 @@ import { Link } from 'react-router-dom';
 import useSiteMetadata from '@/hooks/useSiteMetadata';
 import useTheme from '@/hooks/useTheme';
 import { useSearch } from '@/hooks/SearchContext';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const Header = () => {
   const { navLinks } = useSiteMetadata();
   const { theme, toggleTheme } = useTheme();
   const { searchOpen, setSearchOpen, searchValue, setSearchValue } = useSearch();
   const inputRef = useRef<HTMLInputElement>(null);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     if (searchOpen && inputRef.current) {
       inputRef.current.focus();
     }
   }, [searchOpen]);
+
+  // Prevent scrolling when mobile menu is open
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [mobileMenuOpen]);
+
+  const toggleMobileMenu = () => setMobileMenuOpen(!mobileMenuOpen);
 
   return (
     // Outer wrapper for sticky positioning and background color (full width)
@@ -83,7 +98,7 @@ const Header = () => {
                 type="text"
                 value={searchValue}
                 onChange={(e) => setSearchValue(e.target.value)}
-                placeholder="Name, Date(YYYY-MM-DD), Loc..."
+                placeholder="Name, Date, Loc..."
                 className="w-48 border-b border-gray-300 dark:border-gray-600 bg-transparent px-2 py-1 text-sm text-gray-900 dark:text-white focus:outline-none focus:border-primary-500 transition-all"
                 onBlur={() => {
                   if (!searchValue) setSearchOpen(false);
@@ -148,16 +163,58 @@ const Header = () => {
 
           {/* Mobile Menu Button (Hamburger) */}
           <div className="-my-2 -mr-2 md:hidden">
-            <label id="menu-button" className="block p-2 cursor-pointer text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-6 w-6">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
-              </svg>
-            </label>
+            <button
+              type="button"
+              onClick={toggleMobileMenu}
+              className="block p-2 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline-none"
+            >
+              {mobileMenuOpen ? (
+                <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              ) : (
+                <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              )}
+            </button>
           </div>
         </div>
       </div>
+
+      {/* Mobile Menu Overlay */}
+      {mobileMenuOpen && (
+        <div className="md:hidden absolute top-full left-0 w-full bg-white dark:bg-slate-900 border-b border-gray-100 dark:border-gray-800 shadow-lg p-5 flex flex-col space-y-4">
+          {/* Mobile Search */}
+          <div className="relative">
+            <input
+              type="text"
+              value={searchValue}
+              onChange={(e) => {
+                setSearchValue(e.target.value);
+                setSearchOpen(true);
+              }}
+              placeholder="Search runs..."
+              className="w-full bg-gray-50 dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-md py-2 px-4 focus:outline-none focus:ring-2 focus:ring-primary-500 text-gray-900 dark:text-white"
+            />
+          </div>
+
+          <a href="/sports/" className="text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2">Sports</a>
+          <a href="/racelog/" className="text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2">Race Log</a>
+          <a href="/work/" className="text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2">Work</a>
+
+          <div className="pt-4 border-t border-gray-100 dark:border-gray-800 flex justify-between items-center">
+            <span className="text-gray-500 dark:text-gray-400 text-sm">Appearance</span>
+            <button
+              onClick={toggleTheme}
+              className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-slate-800 text-gray-500 dark:text-gray-400"
+            >
+              {theme === 'dark' ? 'Dark Mode' : 'Light Mode'}
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
-
 export default Header;

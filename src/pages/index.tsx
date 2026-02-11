@@ -163,7 +163,7 @@ const Index = () => {
 
         <div className="min-h-screen font-sans text-slate-900 dark:text-slate-100 pb-20 w-full">
           {/* 2. Map Module */}
-          <div className="mb-10">
+          <div id="run-map-container" className="mb-10">
             <div className="flex items-center mb-4">
               <h2 className="text-3xl font-extrabold bg-black dark:bg-white text-white dark:text-black px-4 py-1 inline-block transform -skew-x-6">
                 Workouts Map
