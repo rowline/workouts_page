@@ -5,6 +5,7 @@ import RunMap from '@/components/RunMap';
 import RunTable from '@/components/RunTable';
 import TypeFilter from '@/components/TypeFilter';
 import SummaryCards from '@/components/SummaryCards';
+import SearchList from '@/components/SearchList';
 import useActivities from '@/hooks/useActivities';
 import useSiteMetadata from '@/hooks/useSiteMetadata';
 import {
@@ -26,7 +27,7 @@ import { useSearch } from '@/hooks/SearchContext';
 const Index = () => {
   const { siteTitle } = useSiteMetadata();
   const { activities, thisYear, years } = useActivities();
-  const { searchValue } = useSearch();
+  const { searchValue, searchOpen } = useSearch();
   const [year, setYear] = useState(thisYear);
   const [runIndex, setRunIndex] = useState(-1);
   const [selectedType, setSelectedType] = useState('All');
@@ -152,51 +153,59 @@ const Index = () => {
 
   return (
     <Layout>
-      <div className="min-h-screen font-sans text-slate-900 dark:text-slate-100 pb-20 w-full">
-        {/* 2. Map Module */}
-        <div className="mb-10">
-          <div className="flex items-center mb-4">
-            <h2 className="text-3xl font-extrabold bg-black dark:bg-white text-white dark:text-black px-4 py-1 inline-block transform -skew-x-6">
-              Workouts Map
-            </h2>
+      <div className="w-full lg:w-4/5 mx-auto px-4 sm:px-6 lg:px-8 py-8 relative">
+        {/* Search Results Dropdown - Positioned relative to the content container but fixed/absolute at top right effectively */}
+        {searchOpen && searchValue && (
+          <div className="absolute top-0 right-0 mt-4 mr-4 z-50">
+            <SearchList runs={runs} locateActivity={scrollToMap} />
           </div>
-          <div className="relative w-full h-[400px] md:h-[500px] bg-[#1a1a1a] rounded-lg overflow-hidden shadow-xl border border-gray-200 dark:border-gray-800 group">
-            <RunMap
-              title={title}
-              viewState={viewState}
-              geoData={geoData}
-              setViewState={setViewState}
-              changeYear={changeYear}
-              thisYear={year}
-            />
+        )}
+
+        <div className="min-h-screen font-sans text-slate-900 dark:text-slate-100 pb-20 w-full">
+          {/* 2. Map Module */}
+          <div className="mb-10">
+            <div className="flex items-center mb-4">
+              <h2 className="text-3xl font-extrabold bg-black dark:bg-white text-white dark:text-black px-4 py-1 inline-block transform -skew-x-6">
+                Workouts Map
+              </h2>
+            </div>
+            <div className="relative w-full h-[400px] md:h-[500px] bg-[#1a1a1a] rounded-lg overflow-hidden shadow-xl border border-gray-200 dark:border-gray-800 group">
+              <RunMap
+                title={title}
+                viewState={viewState}
+                geoData={geoData}
+                setViewState={setViewState}
+                changeYear={changeYear}
+                thisYear={year}
+              />
+            </div>
           </div>
-        </div>
 
-        {/* 3. Type Selection Module */}
-        <TypeFilter
-          selectedType={selectedType}
-          onSelectType={changeType}
-        />
+          {/* 3. Type Selection Module */}
+          <TypeFilter
+            selectedType={selectedType}
+            onSelectType={changeType}
+          />
 
-        {/* 4. Category Summary Module */}
-        <SummaryCards activities={runs} />
+          {/* 4. Category Summary Module */}
+          <SummaryCards activities={runs} />
 
-        {/* 5. Detail Module */}
-        <RunTable
-          runs={runs}
-          locateActivity={locateActivity}
-          setActivity={setActivity}
-          runIndex={runIndex}
-          setRunIndex={setRunIndex}
-        />
+          {/* 5. Detail Module */}
+          <RunTable
+            runs={runs}
+            locateActivity={locateActivity}
+            setActivity={setActivity}
+            runIndex={runIndex}
+            setRunIndex={setRunIndex}
+          />
 
-        {/* Footer info */}
-        <div className="mt-20 pt-10 border-t border-gray-200 dark:border-gray-800 text-center text-gray-400 text-sm">
-          <p>Displaying workouts for Rollin</p>
-          <p className="mt-2 text-xs text-gray-300 dark:text-gray-500">Last synced: Just now</p>
+          {/* Footer info */}
+          <div className="mt-20 pt-10 border-t border-gray-200 dark:border-gray-800 text-center text-gray-400 text-sm">
+            <p>Displaying workouts for Rollin</p>
+            <p className="mt-2 text-xs text-gray-300 dark:text-gray-500">Last synced: Just now</p>
+          </div>
         </div>
       </div>
-      <Analytics />
     </Layout>
   );
 };

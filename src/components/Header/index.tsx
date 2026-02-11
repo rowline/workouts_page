@@ -84,7 +84,7 @@ const Header = () => {
                 value={searchValue}
                 onChange={(e) => setSearchValue(e.target.value)}
                 placeholder="Name, Date(YYYY-MM-DD), Loc..."
-                className="w-48 border-b border-gray-300 dark:border-gray-600 bg-transparent px-2 py-1 text-sm focus:outline-none focus:border-primary-500 transition-all"
+                className="w-48 border-b border-gray-300 dark:border-gray-600 bg-transparent px-2 py-1 text-sm text-gray-900 dark:text-white focus:outline-none focus:border-primary-500 transition-all"
                 onBlur={() => {
                   if (!searchValue) setSearchOpen(false);
                 }}
