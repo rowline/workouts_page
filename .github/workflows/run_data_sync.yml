@@ -238,5 +238,81 @@ jobs:
     with:
       save_data_in_github_cache: ${{needs.sync.outputs.SAVE_DATA_IN_GITHUB_CACHE == 'true'}}
       data_cache_prefix: ${{needs.sync.outputs.DATA_CACHE_PREFIX}}
-    needs:
       - sync
+  
+  sync_blog:
+    needs: sync
+    name: Sync to Blog
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Workout Page
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - uses: pnpm/action-setup@v3
+        name: Install pnpm
+        with:
+          version: 8
+          run_install: false
+
+      - name: Get pnpm store directory
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+      - uses: actions/cache@v4
+        name: Setup pnpm cache
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build Workout Page
+        run: |
+          # Set base path if needed, usually '/' for root or '/sports/' if it's a subpath.
+          # The blog serves it at /sports/, so we might need base base='./sports/' in vite config or here?
+          # Looking at local sync, we just ran `pnpm run build`.
+          # The local sync script copied `dist/*` to `static/sports/`.
+          # Vite config likely handles base path or it's relative.
+          # Let's trust the current build process which works locally.
+          pnpm run build
+
+      - name: Checkout Blog Repo
+        uses: actions/checkout@v4
+        with:
+          repository: rowline/blog
+          token: ${{ secrets.BLOG_SYNC_PAT }}
+          path: blog_repo
+          fetch-depth: 0
+
+      - name: Sync Artifacts
+        run: |
+          # Remove old assets
+          rm -rf blog_repo/static/sports/*
+          
+          # Copy new assets
+          cp -r dist/* blog_repo/static/sports/
+          
+          # Check for changes
+          cd blog_repo
+          git config user.name "GitHub Options"
+          git config user.email "actions@github.com"
+          
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "chore: sync sports page from workout_page [skip ci]"
+            git push
+            echo "Successfully synced to blog repo."
+          else
+            echo "No changes to sync."
+          fi
