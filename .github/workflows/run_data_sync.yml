@@ -286,7 +286,7 @@ jobs:
           # The local sync script copied `dist/*` to `static/sports/`.
           # Vite config likely handles base path or it's relative.
           # Let's trust the current build process which works locally.
-          pnpm run build
+          PATH_PREFIX=/sports/ pnpm run build
 
       - name: Checkout Blog Repo
         uses: actions/checkout@v4
