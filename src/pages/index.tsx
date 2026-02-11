@@ -52,7 +52,7 @@ const Index = () => {
     let filtered = activities;
 
     // 1. Filter by Year (if not 'Total', though TimeFilter is usually year specific)
-    if (year !== 'Total') {
+    if (!searchValue && year !== 'Total') {
       filtered = filtered.filter((run) => filterYearRuns(run, year));
     }
 
@@ -73,7 +73,9 @@ const Index = () => {
     setGeoData(geoJsonForRuns(filtered));
     setRunIndex(-1);
 
-    if (year !== 'Total') {
+    if (searchValue) {
+      setTitle(`Search Results: ${searchValue}`);
+    } else if (year !== 'Total') {
       setTitle(`${year} ${selectedType === 'All' ? 'Heatmap' : selectedType + ' Heatmap'}`);
     } else {
       setTitle(`Total Heatmap`);
@@ -121,7 +123,11 @@ const Index = () => {
     if (!lastRun) {
       return;
     }
-    setGeoData(geoJsonForRuns(selectedRuns));
+    if (lastRun.summary_polyline) {
+      setGeoData(geoJsonForRuns(selectedRuns));
+    } else {
+      setGeoData(geoJsonForRuns(runs));
+    }
     setTitle(titleForShow(lastRun));
     clearInterval(intervalId);
     scrollToMap();
@@ -157,7 +163,7 @@ const Index = () => {
         {/* Search Results Dropdown - Positioned relative to the content container but fixed/absolute at top right effectively */}
         {searchOpen && searchValue && (
           <div className="absolute top-0 right-0 mt-4 mr-4 z-50">
-            <SearchList runs={runs} locateActivity={scrollToMap} />
+            <SearchList runs={runs} locateActivity={locateActivity} />
           </div>
         )}
 

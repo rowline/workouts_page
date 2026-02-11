@@ -402,6 +402,7 @@ const filterTypeRuns = (run: Activity, type: string) => {
 const filterRunBySearch = (run: Activity, searchValue: string): boolean => {
   if (!searchValue) return true;
   const lowerSearch = searchValue.toLowerCase();
+  const dateSearch = lowerSearch.replace(/[\.\/]/g, '-');
 
   // 1. Name
   if (run.name && run.name.toLowerCase().includes(lowerSearch)) return true;
@@ -410,7 +411,8 @@ const filterRunBySearch = (run: Activity, searchValue: string): boolean => {
   if (run.location_country && run.location_country.toLowerCase().includes(lowerSearch)) return true;
 
   // 3. Time (Year, Date) - start_date_local: "2024-01-01 12:00:00"
-  if (run.start_date_local.includes(searchValue)) return true;
+  if (run.start_date_local && run.start_date_local.includes(dateSearch)) return true;
+  if (run.start_date && run.start_date.includes(dateSearch)) return true;
 
   return false;
 };
