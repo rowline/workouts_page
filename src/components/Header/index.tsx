@@ -16,7 +16,7 @@ const Icons = {
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-5 h-5"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z" /></svg>
   ),
   Bars: () => (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-6 h-6"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z" /></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-[18px] h-[18px]"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z" /></svg>
   ),
   XMark: () => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" className="w-5 h-5"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z" /></svg>
@@ -186,10 +186,10 @@ const Header = () => {
             <div className="-my-2 -mr-2 md:hidden">
               <button
                 id="menu-button"
-                className="block p-2 cursor-pointer text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline-none"
+                className="block cursor-pointer hover:text-primary-600 dark:hover:text-primary-400 focus:outline-none"
                 onClick={toggleMobileMenu}
               >
-                <div className="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+                <div className="cursor-pointer">
                   <Icons.Bars />
                 </div>
               </button>
@@ -212,37 +212,37 @@ const Header = () => {
 
 
                     <li className="mb-1">
-                      <a href="/sports/" className="flex items-center">
-                        <span className="mr-3">
+                      <a href="/sports/" className="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+                        <span className="mr-2">
                           <span className="relative block icon">
                             <Icons.Heart />
                           </span>
                         </span>
-                        <p className="text-sm font-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white" title="Sports">
+                        <p className="text-base font-normal" title="Sports">
                           Sports
                         </p>
                       </a>
                     </li>
                     <li className="mb-1">
-                      <a href="/racelog/" className="flex items-center">
-                        <span className="mr-3">
+                      <a href="/racelog/" className="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+                        <span className="mr-2">
                           <span className="relative block icon">
                             <Icons.Fire />
                           </span>
                         </span>
-                        <p className="text-sm font-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white" title="Race Log">
+                        <p className="text-base font-normal" title="Race Log">
                           Race Log
                         </p>
                       </a>
                     </li>
                     <li className="mb-1">
-                      <a href="/work/" className="flex items-center">
-                        <span className="mr-3">
+                      <a href="/work/" className="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+                        <span className="mr-2">
                           <span className="relative block w-5 h-4">
                             <Icons.Code />
                           </span>
                         </span>
-                        <p className="text-sm font-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white" title="Work">
+                        <p className="text-base font-normal" title="Work">
                           Work
                         </p>
                       </a>
