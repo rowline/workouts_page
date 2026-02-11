@@ -1,10 +1,20 @@
 import { Link } from 'react-router-dom';
 import useSiteMetadata from '@/hooks/useSiteMetadata';
 import useTheme from '@/hooks/useTheme';
+import { useSearch } from '@/hooks/SearchContext';
+import { useEffect, useRef } from 'react';
 
 const Header = () => {
   const { navLinks } = useSiteMetadata();
   const { theme, toggleTheme } = useTheme();
+  const { searchOpen, setSearchOpen, searchValue, setSearchValue } = useSearch();
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    if (searchOpen && inputRef.current) {
+      inputRef.current.focus();
+    }
+  }, [searchOpen]);
 
   return (
     // Outer wrapper for sticky positioning and background color (full width)
@@ -66,12 +76,27 @@ const Header = () => {
               <p className="text-base font-medium">Work</p>
             </a>
 
+            {/* Search Input */}
+            {searchOpen && (
+              <input
+                ref={inputRef}
+                type="text"
+                value={searchValue}
+                onChange={(e) => setSearchValue(e.target.value)}
+                placeholder="Name, Date(YYYY-MM-DD), Loc..."
+                className="w-48 border-b border-gray-300 dark:border-gray-600 bg-transparent px-2 py-1 text-sm focus:outline-none focus:border-primary-500 transition-all"
+                onBlur={() => {
+                  if (!searchValue) setSearchOpen(false);
+                }}
+              />
+            )}
+
             {/* Search Button */}
             <button
               id="search-button"
               aria-label="Search"
               className="text-base hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
-              onClick={() => (window.location.href = '/search/')}
+              onClick={() => setSearchOpen(!searchOpen)}
             >
               <span className="relative block icon">
                 <svg

@@ -50,9 +50,8 @@ const titleForShow = (run: Activity): string => {
   if (run.name) {
     name = run.name;
   }
-  return `${name} ${date} ${distance} KM ${
-    !run.summary_polyline ? '(No map data for this workout)' : ''
-  }`;
+  return `${name} ${date} ${distance} KM ${!run.summary_polyline ? '(No map data for this workout)' : ''
+    }`;
 };
 
 const formatPace = (d: number): string => {
@@ -198,9 +197,9 @@ const geoJsonForRuns = (runs: Activity[]): FeatureCollection<LineString> => ({
 });
 
 const geoJsonForMap = (): FeatureCollection<RPGeometry> => ({
-    type: 'FeatureCollection',
-    features: worldGeoJson.features.concat(chinaGeojson.features),
-  })
+  type: 'FeatureCollection',
+  features: worldGeoJson.features.concat(chinaGeojson.features),
+})
 
 const titleForType = (type: string): string => {
   switch (type) {
@@ -288,14 +287,14 @@ const typeForRun = (run: Activity): string => {
 
 const titleForRun = (run: Activity): string => {
   const type = run.type;
-  if (type == 'Run' || type == 'Trail Run'){
-      const runDistance = run.distance / 1000;
-      if (runDistance >= 40) {
-        return RUN_TITLES.FULL_MARATHON_RUN_TITLE;
-      }
-      else if (runDistance > 20) {
-        return RUN_TITLES.HALF_MARATHON_RUN_TITLE;
-      }
+  if (type == 'Run' || type == 'Trail Run') {
+    const runDistance = run.distance / 1000;
+    if (runDistance >= 40) {
+      return RUN_TITLES.FULL_MARATHON_RUN_TITLE;
+    }
+    else if (runDistance > 20) {
+      return RUN_TITLES.HALF_MARATHON_RUN_TITLE;
+    }
   }
   return titleForType(type);
 };
@@ -387,7 +386,7 @@ const filterTitleRuns = (run: Activity, title: string) =>
   titleForRun(run) === title;
 
 const filterTypeRuns = (run: Activity, type: string) => {
-  switch (type){
+  switch (type) {
     case 'Full Marathon':
       return (run.type === 'Run' || run.type === 'Trail Run') && run.distance > 40000
     case 'Half Marathon':
@@ -396,6 +395,22 @@ const filterTypeRuns = (run: Activity, type: string) => {
       return run.type === type
   }
 }
+
+const filterRunBySearch = (run: Activity, searchValue: string): boolean => {
+  if (!searchValue) return true;
+  const lowerSearch = searchValue.toLowerCase();
+
+  // 1. Name
+  if (run.name && run.name.toLowerCase().includes(lowerSearch)) return true;
+
+  // 2. Location (Country, Province, City)
+  if (run.location_country && run.location_country.toLowerCase().includes(lowerSearch)) return true;
+
+  // 3. Time (Year, Date) - start_date_local: "2024-01-01 12:00:00"
+  if (run.start_date_local.includes(searchValue)) return true;
+
+  return false;
+};
 
 const filterAndSortRuns = (
   activities: Activity[],
@@ -409,7 +424,7 @@ const filterAndSortRuns = (
   if (item !== 'Total') {
     s = activities.filter((run) => filterFunc(run, item));
   }
-  if(filterFunc2 != null && item2 != null){
+  if (filterFunc2 != null && item2 != null) {
     s = s.filter((run) => filterFunc2(run, item2));
   }
   return s.sort(sortFunc);
@@ -446,4 +461,5 @@ export {
   colorFromType,
   formatRunTime,
   convertMovingTime2Sec,
+  filterRunBySearch,
 };

@@ -19,11 +19,14 @@ import {
   sortDateFunc,
   titleForShow,
   RunIds,
+  filterRunBySearch,
 } from '@/utils/utils';
+import { useSearch } from '@/hooks/SearchContext';
 
 const Index = () => {
   const { siteTitle } = useSiteMetadata();
   const { activities, thisYear, years } = useActivities();
+  const { searchValue } = useSearch();
   const [year, setYear] = useState(thisYear);
   const [runIndex, setRunIndex] = useState(-1);
   const [selectedType, setSelectedType] = useState('All');
@@ -57,7 +60,12 @@ const Index = () => {
       filtered = filtered.filter((run) => filterTypeRuns(run, selectedType));
     }
 
-    // 3. Sort
+    // 3. Filter by Search
+    if (searchValue) {
+      filtered = filtered.filter((run) => filterRunBySearch(run, searchValue));
+    }
+
+    // 4. Sort
     filtered = filtered.sort(sortDateFunc);
 
     setActivity(filtered);
@@ -70,7 +78,7 @@ const Index = () => {
       setTitle(`Total Heatmap`);
     }
 
-  }, [year, selectedType, activities]);
+  }, [year, selectedType, activities, searchValue]);
 
   // Handle map bounds update when runs change
   useEffect(() => {
