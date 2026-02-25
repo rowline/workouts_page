@@ -25,4 +25,6 @@ jobs:
           pip install -r requirements-dev.txt
 
       - name: Check formatting (black)
-        run: black . --check
+        run: |
+          black . --diff || true
+          black . --check
