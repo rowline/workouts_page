@@ -16590,5 +16590,21 @@
 "elevation_gain": 174.4,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 17501700802,
+"name": "Afternoon Walk \ud83c\udf25\ufe0f",
+"distance": 6002.2,
+"moving_time": "1:26:47",
+"type": "Hike",
+"start_date": "2026-02-23 07:18:25+00:00",
+"start_date_local": "2026-02-23 15:18:25",
+"location_country": "\u7ea2\u8354\u8def, \u957f\u57ce\u793e\u533a, \u56ed\u5cad\u8857\u9053, \u798f\u7530\u533a, \u6df1\u5733\u5e02, \u5e7f\u4e1c\u7701, 518000, \u4e2d\u56fd",
+"summary_polyline": "q~shCaqhwTICcEJCC[CsDLcDd@MXY@]CUz@IDMs@mD}\\FTAb@BTKn@F~AE|@G`@Of@Eh@@FFxFFn@@VCTGTUb@qK]O[QE_@YiAo@SQc@WaASg@W[Mu@GUK[WMO[oAk@i@MCc@?OE[_@OEE@KGSY_@Ui@e@I@KLWd@o@x@_@l@g@~@QRYf@ATBPr@~@JR@VCVMHoATEDMZIDE?@@CElBjCjB|Ax@jBH\\Bb@?|BRvABf@J\\RRZJb@F\\K@R\\@BHIDCCOBONGVCj@O~@Ev@Br@L|@?VOv@Ub@CLC?F?]rDGJWb@}@|@QHUDSAKHGLGXIt@@PJBUNY[a@Oc@Bm@Ee@D_@Bc@FGDELA\\J~@Nz@Z|Bt@xAPt@JN\\Tx@ZNL^`@b@Vb@Zb@Rl@PfBZT@HCXSJOBBP^FBt@NZ?DGVmBDMFEML[NGHFGI@B@@EC?YBID[t@HLr@j@JXD`@",
+"average_heartrate": 76.8,
+"average_speed": 1.153,
+"elevation_gain": 124.6,
+"source": "strava",
+"streak": 2
 }
 ]
