@@ -16686,5 +16686,21 @@
 "elevation_gain": 34.4,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 17619111544,
+"name": "Morning Run \ud83c\udf1e\u81ea\u7136\u9192\u665a\u4e86\u70b9",
+"distance": 5202.5,
+"moving_time": "0:24:52",
+"type": "Run",
+"start_date": "2026-03-05 22:56:10+00:00",
+"start_date_local": "2026-03-06 06:56:10",
+"location_country": "\u9f99\u73e0\u5927\u9053, \u4e91\u57ce\u793e\u533a, \u897f\u4e3d\u8857\u9053, \u5357\u5c71\u533a, \u6df1\u5733\u5e02, \u5e7f\u4e1c\u7701, 518000, \u4e2d\u56fd",
+"summary_polyline": "gpwhCksnvTBwBBUPQv@SLMBkAEeADaBAaDHc@\\o@NMJ@DH^jALLP@XO|AeA|FoCjEiB`@URG~AW~AKvHEhFWzAGnAAn@EdBF|CBbCFr@CfCFvFDz@FdANx@BlCAt@EnB?h@AJCLKj@iAVQ\\IVAdBN\\KbBqArDgD`@UjBy@fBk@nAYpAQrAEHADEMAg@@oALkB^sBp@mAj@aAl@eBxAaB|A}AbAOFKB}AM[@[FOHMLi@~@SJ]BcHHqAEgBSkIQ}DAuCGkDCuDJ",
+"average_heartrate": 162.1,
+"average_speed": 3.487,
+"elevation_gain": 9.8,
+"source": "strava",
+"streak": 2
 }
 ]
