@@ -16766,5 +16766,21 @@
 "elevation_gain": 0.0,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 17809228507,
+"name": "Morning Walk \u2601\ufe0f",
+"distance": 2925.1,
+"moving_time": "0:31:24",
+"type": "Hike",
+"start_date": "2026-03-21 22:44:29+00:00",
+"start_date_local": "2026-03-22 06:44:29",
+"location_country": "\u7a3b\u9999\u8def, \u6eaa\u5357, \u6cb3\u57d2\u8857\u9053, \u6ee8\u6e56\u533a, \u65e0\u9521\u5e02, \u6c5f\u82cf\u7701, 214000, \u4e2d\u56fd",
+"summary_polyline": "}pp_Eywa}U?xEClA?`BJjCAhAMjCUjAqArDo@xBQ`@G\\",
+"average_heartrate": 90.9,
+"average_speed": 1.553,
+"elevation_gain": 11.6,
+"source": "strava",
+"streak": 1
 }
 ]
