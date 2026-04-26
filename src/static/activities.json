@@ -17038,5 +17038,21 @@
 "elevation_gain": 114.6,
 "source": "strava",
 "streak": 2
+},
+{
+"run_id": 18246418953,
+"name": "Morning Run \ud83c\udf25\ufe0f",
+"distance": 13140.6,
+"moving_time": "1:14:29",
+"type": "Run",
+"start_date": "2026-04-25 02:15:53+00:00",
+"start_date_local": "2026-04-25 10:15:53",
+"location_country": null,
+"summary_polyline": "",
+"average_heartrate": 128.6,
+"average_speed": 2.94,
+"elevation_gain": 38.4,
+"source": "strava",
+"streak": 1
 }
 ]
